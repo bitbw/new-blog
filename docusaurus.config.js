@@ -9,7 +9,7 @@ const config = {
   title: 'Bitbw',
   tagline: 'Welcome to my blog！',
   url: 'https://blog.bitbw.top',
-  baseUrl: '/',
+  baseUrl: '/new-blog/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
