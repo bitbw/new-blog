@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Bitbw",
-  tagline: "Welcome to my blog！",
+  tagline: "Welcome to my blog!",
   url: "https://blog.bitbw.top",
   baseUrl: "/",
   onBrokenLinks: "warn",
@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "zh-Hans",
-    locales: ["zh-Hans"],
+    locales: ["zh-Hans","en"],
   },
 
   presets: [
@@ -40,9 +40,9 @@ const config = {
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
-          blogTitle: "博客！",
-          blogDescription: "Welcome to my blog！",
-          blogSidebarTitle: "全部博文",
+          blogTitle: "blog!",
+          blogDescription: "Welcome to my blog!",
+          blogSidebarTitle: "All blog",
           blogSidebarCount: "ALL",
           showReadingTime: true,
           truncateMarker: /<!--\s*(more)\s*-->/,
@@ -74,13 +74,13 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "归档",
+            label: "Archive",
           },
-          { to: "/blog", label: "博客", position: "left" },
-          // {
-          //   type: 'localeDropdown',
-          //   position: 'right'
-          // },
+          { to: "/blog", label: "Blog", position: "left" },
+          {
+            type: 'localeDropdown',
+            position: 'right'
+          },
           {
             href: "https://github.com/bitbw",
             label: "GitHub",
