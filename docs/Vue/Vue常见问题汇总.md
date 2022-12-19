@@ -98,7 +98,7 @@ this.items = this.items.map( item =>{
 
 > 在下面的案例中 即使渲染出返回按钮 因为下面的每个 else 元素都一样 但是返回依然不现实 因为复用了下面的元素样式 display: none; 需要在不需要复用的元素上加 key 解决
 
-[vue 原文链接](<[https://cn.vuejs.org/v2/guide/conditional.html#%E7%94%A8-key-%E7%AE%A1%E7%90%86%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84%E5%85%83%E7%B4%A0](https://cn.vuejs.org/v2/guide/conditional.html#用-key-管理可复用的元素)>)
+[vue 原文链接](https://v2.cn.vuejs.org/v2/guide/conditional.html#%E7%94%A8-key-%E7%AE%A1%E7%90%86%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84%E5%85%83%E7%B4%A0)
 
 ```html
    <div class="top-button" v-if="isView">
