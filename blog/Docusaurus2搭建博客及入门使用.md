@@ -4,6 +4,7 @@ date: 2022-12-19 09:09:56
 tags:
   - Docusaurus2
 categories: Docusaurus2
+keywords: [Docusaurus2]
 ---
 
 
@@ -36,6 +37,14 @@ docusaurus.config.js
 [官方文档](https://docusaurus.io/zh-CN/docs/i18n/tutorial)
 
 > tip: Github Pages 不能部署国际化 我改用 [vercel](https://vercel.com/docs) 进行部署 ，使用 vercel 部署见[文档](https://vercel.com/docs/concepts/git/vercel-for-github)
+
+## 搜索
+
+[搜索](https://docusaurus.io/zh-CN/docs/search)
+
+## 搜索引擎优化 (SEO)
+
+[SEO](https://docusaurus.io/zh-CN/docs/seo)
 
 ## 案例展示
 
