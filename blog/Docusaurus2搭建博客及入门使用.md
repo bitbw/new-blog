@@ -20,6 +20,8 @@ hexo 博客可以轻松的转换为  Docusaurus2 博客
 
 可能会有一些报错， 再根据报错进行对应修复即可
 
+<!-- more -->
+
 ### 设置摘要示例
 
 docusaurus.config.js
@@ -45,6 +47,18 @@ docusaurus.config.js
 ## 搜索引擎优化 (SEO)
 
 [SEO](https://docusaurus.io/zh-CN/docs/seo)
+
+## editUrl 编辑此页
+
+```js
+{
+  editUrl: "https://github.com/bitbw/new-blog/tree/preview"
+}
+```
+
+```
+https://github.com/用户名称/仓库名称/tree/分支"
+```
 
 ## 案例展示
 
