@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "zh-Hans",
-    locales: ["zh-Hans","en"],
+    locales: ["zh-Hans", "en"],
   },
 
   presets: [
@@ -63,6 +63,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // keywords
+      metadata: [
+        {
+          name: "keywords",
+          content:
+            "vue,js,javaScript,ts,typeScript,HTML,css,Sass,less,webpack,git,hexo,Node.js,算法,前端,小程序,技术个人博客",
+        },
+      ],
       navbar: {
         title: "Bitbw",
         logo: {
@@ -78,8 +86,8 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            type: 'localeDropdown',
-            position: 'right'
+            type: "localeDropdown",
+            position: "right",
           },
           {
             href: "https://github.com/bitbw",
