@@ -5,7 +5,7 @@ import Layout from "@theme/Layout";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./index.module.css";
 
-import Translate, { translate } from "@docusaurus/Translate";
+import Translate from "@docusaurus/Translate";
 
 const description = "welcome to bitbw";
 
@@ -14,8 +14,6 @@ function HomepageHeader() {
     <div className="hero">
       <div className={styles.welcome_intro}>
         <h1 className={styles.hero_title}>
-          {/* <span style={{ color: 'var(--ifm-color-primary)' }}>Meoo</span>    */}
-
           <Link style={{ color: "var(--ifm-color-primary)" }} to="/blog">
             Welcome to my blog ~
           </Link>
