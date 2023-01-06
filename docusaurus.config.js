@@ -137,14 +137,14 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      // algolia: {
-      //   // Algolia 提供的应用 ID
-      //   appId: "2A5CE9GGYC",
-      //   //  公开 API 密钥：提交它没有危险
-      //   apiKey: "959018e1a98022250b4c8ea26e372cf6",
-      //   indexName: "test_index",
-      // },
+      algolia: {
+        appId: "2A5CE9GGYC",
+        apiKey: "959018e1a98022250b4c8ea26e372cf6",
+        indexName: "docusaurus-2_tmp",
+      },
     }),
 };
 
 module.exports = config;
+
+
