@@ -140,7 +140,7 @@ const config = {
       algolia: {
         appId: "2A5CE9GGYC",
         apiKey: "959018e1a98022250b4c8ea26e372cf6",
-        indexName: "docusaurus-2_tmp",
+        indexName: "docusaurus-2",
       },
     }),
 };
