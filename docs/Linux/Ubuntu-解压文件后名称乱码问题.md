@@ -1,13 +1,13 @@
 ---
 title: Ubuntu 解压文件后名称乱码问题
-date: 2021-01-10 16:09:01
+date: 2021-01-10T16:09:01.000Z
 tags:
   - Linux
   - ubuntu
 categories: Linux
 cnblogs:
-  postid: "15393008"
-hash: 0859f6cf98cff623b1e848611a932abb0df0a624eca0c31be449ba883e2cd9da
+  postid: '15393008'
+hash: ad0bee964f4416ab63fe7c756995f7fff2575fcb465251c8a9dc3ea8529c5f56
 ---
 
 由于中文的 Windows 使用的是 GBK 编码，而 Linux 默认使用 UTF-8 编码的，如果在 Windows 打包带中文文件的 zip 包，则这个 zip 包在 Linux 下面使用默认的归档管理器打开这个 zip 包的时候，中文文件名会显示乱码。

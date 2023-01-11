@@ -1,12 +1,12 @@
 ---
 title: javaScript-操作符-分支结构-循环结构
-date: 2016-7-05 21:57:48
-tags: 
- - js
+date: 2016-07-05T21:57:48.000Z
+tags:
+  - js
 categories: js
 cnblogs:
-  postid: "15392428"
-hash: 448a8b64d367c45b118700ce9910afa857314974f356fe2be97ea7c9e80d133e
+  postid: '15392428'
+hash: 5ac95918ab96ca83b30fc34c68d790e9fcc0c244f46803594d4a83e13d7726ba
 ---
 
 ## 1 操作符

@@ -1,12 +1,12 @@
 ---
 title: MySQL忘记密码修改
-date: 2021-04-22 17:30:03
+date: 2021-04-22T17:30:03.000Z
 tags:
   - MySQL
 categories: SQL
 cnblogs:
-  postid: "15392585"
-hash: 8a316b09e30f004376609795f64d62f90a03710178c073cee40206002d0fdf5f
+  postid: '15392585'
+hash: 74952fb6861951062d7112e69ac94a1792b7da292e22d3ba022ec04a7f5d022d
 ---
 
 ## MySQL8.0

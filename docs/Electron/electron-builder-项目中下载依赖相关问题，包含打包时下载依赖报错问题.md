@@ -1,13 +1,13 @@
 ---
 title: electron-builder 项目中下载依赖相关问题，包含打包时下载依赖报错问题
-date: 2021-06-07 11:15:46
+date: 2021-06-07T11:15:46.000Z
 tags:
   - electron-builder
   - Electron
 categories: Electron
 cnblogs:
-  postid: "15392414"
-hash: d1679c12fff664efedb82fc573a6751b8e4ca48fab18db7b4020d87d6414ce8d
+  postid: '15392414'
+hash: 31675e301524abba3c4569c10b12af52d06b18899daec069ca36f5b92fab457d
 ---
 
 ## 修改 electron 下载源

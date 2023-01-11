@@ -1,12 +1,12 @@
 ---
 title: Vue列表渲染中对象和数组变更检测注意事项
-date: 2018-12-04 10:49:58
-tags: 
- - vue
+date: 2018-12-04T10:49:58.000Z
+tags:
+  - vue
 categories: Vue
 cnblogs:
-  postid: "15393018"
-hash: 9adf23fd6d1f3aa4e4a1565541a227a3bebdb12b82f448b5905f9b0207eb9fff
+  postid: '15393018'
+hash: 433125e6dd47a4633315aa47a27fd601be4090b0ed3fc855ce7716ab8f1fc07d
 ---
 
 ## 对象变更检测注意事项

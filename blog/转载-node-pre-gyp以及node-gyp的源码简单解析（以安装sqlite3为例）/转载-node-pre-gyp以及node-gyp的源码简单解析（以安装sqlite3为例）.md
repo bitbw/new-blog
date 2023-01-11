@@ -1,12 +1,12 @@
 ---
-title: "[转载]node-pre-gyp以及node-gyp的源码简单解析（以安装sqlite3为例）"
-date: 2020-12-13 13:05:13
-tags: 
- - Nodejs
+title: '[转载]node-pre-gyp以及node-gyp的源码简单解析（以安装sqlite3为例）'
+date: 2020-12-13T13:05:13.000Z
+tags:
+  - Nodejs
 categories: Nodejs
 cnblogs:
-  postid: "15393047"
-hash: 33325cb23f3f5afea86bf79b968d6fd09dd50a306ea8c36adbc5eaea53440769
+  postid: '15393047'
+hash: dde7f9fea3806329efb47ec0003b1e2fe67ba972755c105fb69d14143fdc7622
 ---
 
 [文章原地址](https://zhuanlan.zhihu.com/p/330468774)

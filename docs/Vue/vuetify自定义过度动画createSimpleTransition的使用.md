@@ -1,13 +1,13 @@
 ---
 title: vuetify自定义过度动画createSimpleTransition的使用实现左右抽屉效果
-date: 2021-01-11 17:40:14
+date: 2021-01-11T17:40:14.000Z
 tags:
   - Vue
   - Vuetify
 categories: Vue
 cnblogs:
-  postid: "15393016"
-hash: 84d8f837c97c1758429bea22cd77dd5b669de67f2e71e0c9cfb1a89cd1b5569c
+  postid: '15393016'
+hash: 7a612beb43d16c996adeb6d698055aeb3824af5e6b8a79a8a1008f8587851603
 ---
 
 > 因为 vuetify 中 dailog 只有上下抽屉的效果，想要左右抽屉效果 于是自己写了一个左右抽屉的组件 其中比较难搞的还是样式 和过渡

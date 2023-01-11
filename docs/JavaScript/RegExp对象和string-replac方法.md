@@ -1,12 +1,12 @@
 ---
 title: RegExp对象和string.replac方法
-date: 2018-12-04 17:19:26
-tags: 
- - js
+date: 2018-12-04T17:19:26.000Z
+tags:
+  - js
 categories: js
 cnblogs:
-  postid: "15392988"
-hash: 5ad4bd8eab7290004d0c9497deaa6cb9248270d12b6908da60ec8f60c31d3986
+  postid: '15392988'
+hash: f26cfb63e22c0796f2404f3892e692a3be364e91604b384658c55167ce5ef1aa
 ---
 
 ## RegExp 对象

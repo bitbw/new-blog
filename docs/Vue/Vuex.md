@@ -1,12 +1,12 @@
 ---
 title: Vuex入门
-date: 2018-11-29 13:44:28
-tags: 
- - vue
+date: 2018-11-29T13:44:28.000Z
+tags:
+  - vue
 categories: Vue
 cnblogs:
-  postid: "15393017"
-hash: 994b543d84b59fd8fcf781a3c2d9741a9bac3cf76a8ab3343bedff092eba4563
+  postid: '15393017'
+hash: 24d23ff624b9011fea00f33e73b0fbcbc01f0d61808b851f90fd2afb30ed65a4
 ---
 
 ## 1. 介绍

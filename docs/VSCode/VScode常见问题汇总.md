@@ -1,12 +1,12 @@
 ---
 title: VScode常见问题汇总
-date: 2021-11-18 16:54:46
+date: 2021-11-18T16:54:46.000Z
 tags:
   - vscode
 categories: 工具使用
-hash: 45235591203d1b8032d5c3caa9d75070490e047d46a7d66f5e7f6f0ed2a3df04
+hash: a316ce726c17943f63d4ac97fce927edf4271c21964018b9b8a331dabfc310e2
 cnblogs:
-  postid: "15766330"
+  postid: '15766330'
 ---
 
 ## Remote-SSH 插件

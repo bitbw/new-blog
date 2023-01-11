@@ -1,14 +1,14 @@
 ---
 title: vue + vuetify + electron 实现ctrl+f的搜索功能
-date: 2021-01-12 15:02:05
+date: 2021-01-12T15:02:05.000Z
 tags:
   - Vue
   - Vuetify
   - Electron
 categories: Vue
 cnblogs:
-  postid: "15393013"
-hash: 2006e8aba368f486eb0434be4f53e0d80ad9a0c1b9571a804aef24c537e34ba9
+  postid: '15393013'
+hash: 5d07ba4b3a480dcd58893d3f097b4a8c1742959f6eebaec6c0b5ac311ce63582
 ---
 
 > 因为在 electron 中没有找到 ctrl+f 调用浏览器搜索的方法 于是借鉴文章自己撸了一个搜索组件

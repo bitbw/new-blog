@@ -1,13 +1,13 @@
 ---
 title: antd-mobile常见问题汇总
-date: 2021-11-12 20:42:35
+date: 2021-11-12T20:42:35.000Z
 tags:
   - antd-mobile
   - antd
 categories: React
-hash: da1c31dc789c05a7cae5b359221228fd6baaaf0f140f2e34108c55e85c1e9a56
+hash: 60ce5dc1efc6fe2b1cb70e5c67e2e731a09c1ed4de8a10ca61075fc45802e2ac
 cnblogs:
-  postid: "15765936"
+  postid: '15765936'
 ---
 
 ## 在 create-react-app 中使用

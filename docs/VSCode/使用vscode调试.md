@@ -1,12 +1,12 @@
 ---
 title: 使用vscode调试代码
-date: 2021-03-09 10:27:53
+date: 2021-03-09T10:27:53.000Z
 tags:
   - vscode
 categories: 工具使用
 cnblogs:
-  postid: "15393033"
-hash: 3941b452d96d24365f30e489c0ee06a748bace977e7357b30286cfc56471bf9a
+  postid: '15393033'
+hash: bd5ae14f896304f9fc1a8c969ee65b00a913591a45e68e6377b1efc21af005ce
 ---
 
 ## 使用 vscode 直接调试 js 代码

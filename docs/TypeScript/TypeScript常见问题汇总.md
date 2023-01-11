@@ -1,12 +1,12 @@
 ---
 title: TypeScript常见问题汇总
-date: 2022-03-11 09:32:59
+date: 2022-03-11T09:32:59.000Z
 tags:
   - TypeScript
 categories: TypeScript
-hash: 98cf6e6c8260239fe69b0636341edf97458b93c16e4874129fda4eed6f8b30ba
+hash: 7fe43859955a5e137d68c705ca996f1dd86673295f5aa9018ae738955c2ea4be
 cnblogs:
-  postid: "16228058"
+  postid: '16228058'
 ---
 
 

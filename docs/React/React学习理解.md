@@ -1,12 +1,12 @@
 ---
 title: React学习理解
-date: 2020-12-24 14:35:01
-tags: 
- - react
+date: 2020-12-24T14:35:01.000Z
+tags:
+  - react
 categories: React
 cnblogs:
-  postid: "15392987"
-hash: b9dead587297989a251a666fa3f20e8ce43b175e18e990fb475641e1c2b0822d
+  postid: '15392987'
+hash: 631979fbd28fcec78b9dc069255621615688ef0a4766d3299b8178c4f568d843
 ---
 
 ## 表单

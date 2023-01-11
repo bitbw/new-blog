@@ -1,6 +1,6 @@
 ---
 title: npm scripts  使用指南
-date: 2021-01-03 10:50:45
+date: 2021-01-03T10:50:45.000Z
 tags:
   - npm
   - js
@@ -8,8 +8,8 @@ tags:
   - package.json
 categories: Nodejs
 cnblogs:
-  postid: "15392979"
-hash: c44b48d2d66b78a955f745e37c0260a68d93f7b00f2cc792b5f539e648eab7f9
+  postid: '15392979'
+hash: 523f4afb6e1408699dc8335bc98db73501ef44460797fa58c2e98ab134a25a8f
 ---
 
 > 本片文章转载于阮一峰老师的博客：<http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html>

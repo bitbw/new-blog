@@ -1,12 +1,12 @@
 ---
 title: js常用冷知识
-date: 2021-04-24 12:33:21
+date: 2021-04-24T12:33:21.000Z
 tags:
   - js
 categories: js
 cnblogs:
-  postid: "15392538"
-hash: 1e322b35e5ba96bdff5fd60a95cd42343c4f8ae16e28e2d713ef330922306c81
+  postid: '15392538'
+hash: f9174a1ed10acfc4df3305d6cc5016492d4bc9d9b39886082bac5b46b3a7804e
 ---
 
 ## 函数对象+空字串 = 函数内容

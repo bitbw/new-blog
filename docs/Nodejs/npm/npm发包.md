@@ -1,13 +1,13 @@
 ---
 title: npm发包
-date: 2022-01-05 10:02:57
+date: 2022-01-05T10:02:57.000Z
 tags:
   - npm
   - Nodejs
 categories: Nodejs
-hash: 88f8a0930cda4b0172abbccf36529c3e0660472e8f190c4d87f6b86bc1aff064
+hash: d34c8037648f87531852408aff7a15e4ee843626e31563129b1fbb107252289d
 cnblogs:
-  postid: "15765984"
+  postid: '15765984'
 ---
 
 ## 创建一个 npm 账号

@@ -1,14 +1,14 @@
 ---
 title: element+sortablejs实现表格托拽
-date: 2020-07-31 14:36:01
+date: 2020-07-31T14:36:01.000Z
 tags:
   - elementUI
   - Vue
   - sortablejs
 categories: Vue
 cnblogs:
-  postid: "15392418"
-hash: 1e9d0ed939df5e1001ab582ac099592eb0bef78137bc7b43ffa6008cf62c8869
+  postid: '15392418'
+hash: 96d0a300bd0f1affa9e70732962b0465c4c4b383ee529b7ec30cf95b49da4194
 ---
 
 最终实现效果：

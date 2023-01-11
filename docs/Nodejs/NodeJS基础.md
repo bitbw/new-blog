@@ -1,12 +1,12 @@
 ---
 title: NodeJS基础
-date: 2021-05-03 09:24:18
+date: 2021-05-03T09:24:18.000Z
 tags:
   - Nodejs
 categories: Nodejs
 cnblogs:
-  postid: "15392978"
-hash: bd68fdf0731d35d546debe91de0badd42df9c517c5a3fb78d6b8b09f5485fa9a
+  postid: '15392978'
+hash: ba3c5efd5c8e2aaec0b64d0e113520c2a41f09710cf1ec16e6e2e69e0c78a1e6
 ---
 
 ## node 搜索包的过程

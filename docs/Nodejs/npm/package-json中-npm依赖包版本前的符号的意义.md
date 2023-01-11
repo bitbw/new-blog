@@ -1,14 +1,14 @@
 ---
 title: package.json中 npm依赖包版本前的符号的意义
-date: 2021-06-16 14:38:23
+date: 2021-06-16T14:38:23.000Z
 tags:
   - package.json
   - npm
   - Nodejs
 categories: Nodejs
 cnblogs:
-  postid: "15392981"
-hash: efc4c4145b51bef7f8cfb88481228c936be0a1bf030c29706fcb1af0e1b154f2
+  postid: '15392981'
+hash: a7e8bca575c77d2584cbdbfc242423cb0dc917d356bc756814d71be4b9d3cf6d
 ---
 
 **版本的格式**

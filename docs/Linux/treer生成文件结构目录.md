@@ -1,12 +1,12 @@
 ---
 title: treer生成文件结构目录
-date: 2020-05-22 14:48:29
-tags: 
- - js
+date: 2020-05-22T14:48:29.000Z
+tags:
+  - js
 categories: js
 cnblogs:
-  postid: "15393004"
-hash: 77c6beba7fedb676c1eaa511f9d911dc55ad1cf193b1669cb5d75b5648373c06
+  postid: '15393004'
+hash: f73bc6ec6676acc4fded658436f01205a390b0a0bd317a5f55281375d3088a7a
 ---
 
 参考资料：https://blog.csdn.net/weixin_43998681/article/details/88708847

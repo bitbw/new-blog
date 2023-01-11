@@ -1,12 +1,12 @@
 ---
 title: windows系统下的环境变量
-date: 2021-03-19 13:22:32
+date: 2021-03-19T13:22:32.000Z
 tags:
   - windows
 categories: Windows
 cnblogs:
-  postid: "15393027"
-hash: ce2f50930c730968e63602867ee887bc0b38924739074b891dc546e626027198
+  postid: '15393027'
+hash: 89de3ee4f59245de0091d36323ee3b3a452bbc913350dadc75955e7098e396d6
 ---
 
 windows 系统下 如需要在命令行中执行某个程序 如：

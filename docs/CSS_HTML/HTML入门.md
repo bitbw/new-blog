@@ -1,12 +1,12 @@
 ---
 title: HTML入门
-date: 2016-5-21 20:54:00
-tags: 
- - HTML
+date: 2016-05-21T20:54:00.000Z
+tags:
+  - HTML
 categories: HTML
 cnblogs:
-  postid: "15392425"
-hash: ca16ae039e5e6c5ff1b7436bef90b9ed6e69de01b62a3da33a8b02e46d0a7bb0
+  postid: '15392425'
+hash: 27a2c4add02dac43f76c3316ead3150ee0c226603e38241dcc7732ba100c2b07
 ---
 
 ![下载](https://bitbw.top/public/img/my_gallery/下载.jpg)

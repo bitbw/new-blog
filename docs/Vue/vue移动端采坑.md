@@ -1,12 +1,12 @@
 ---
 title: vue 移动端采坑
-date: 2019-2-30 20:54:04
-tags: 
- - vue
+date: 2019-03-02T20:54:04.000Z
+tags:
+  - vue
 categories: Vue
 cnblogs:
-  postid: "15393021"
-hash: f84947c0d21e36c1c205b8707d808bba15c88e9b3458e083a8f427839e330be4
+  postid: '15393021'
+hash: 6e90f1dfc24c9882edd4ec5d1cb4d9dd81843ff154b7e72d53c3e2fe570571e6
 ---
 
 ## 1.报错

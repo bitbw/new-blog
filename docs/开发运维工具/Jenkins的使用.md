@@ -1,13 +1,13 @@
 ---
 title: Jenkins的使用
-date: 2021-07-02 10:24:03
+date: 2021-07-02T10:24:03.000Z
 tags:
   - Jenkins
   - ci/cd
 categories: 工具使用
 cnblogs:
-  postid: "15392431"
-hash: b21cba0387a97fd4433b0f1a75fe0f10a7d1a86807e8dbbcd6df862cec2b3f45
+  postid: '15392431'
+hash: 30d0baa27366cd281e138374c824330ffa0540fa73650cf06240d48909e6fa08
 ---
 
 ## 安装

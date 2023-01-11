@@ -1,13 +1,13 @@
 ---
 title: ESlint的使用
-date: 2022-01-27 11:08:59
+date: 2022-01-27T11:08:59.000Z
 tags:
   - ESlint
   - prettier
 categories: 前端工程化
-hash: 2f28f37aa9f69b40b9b58682b4333fe7dea2121cebde6f099b73e48e184d2737
+hash: 4a46067f60b1810a7673b3a6f6cfc0307f7d55d75d918c7ec101bfffd9f9aeaf
 cnblogs:
-  postid: "15931410"
+  postid: '15931410'
 ---
 
 ## 官方网站

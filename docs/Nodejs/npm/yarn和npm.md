@@ -1,14 +1,14 @@
 ---
 title: yarn 和 npm
-date: 2018-04-30 18:27:25
+date: 2018-04-30T18:27:25.000Z
 tags:
   - 工具使用
   - npm
   - yarn
 categories: Nodejs
 cnblogs:
-  postid: "15393030"
-hash: b5a0475f7448115d77637388b08bc53bfd79445a45aad6898d03a7c08c24262f
+  postid: '15393030'
+hash: ff2444d4a0ddb75a93403d5c3aca7a4ae0854d2d0ec750f42886900f617513d2
 ---
 
 ## 关于 npm 和 yarn

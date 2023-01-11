@@ -1,12 +1,12 @@
 ---
 title: windows系统常见问题
-date: 2021-08-06 08:54:29
+date: 2021-08-06T08:54:29.000Z
 tags:
   - windows
 categories: Windows
 cnblogs:
-  postid: "15393028"
-hash: 5c94ae6f426dec5cd0afdcacad6a9ad44609d98b46ce7dd0ed04857f2dd704e9
+  postid: '15393028'
+hash: 38888a775b37ab633347317e5b92497c96c6ef64ab43f7404bebd682c318779d
 ---
 
 ## 电脑不进系统之开机重复自动修复不进系统

@@ -1,12 +1,12 @@
 ---
 title: 转从深入到通俗Object.prototype.toString.call()
-date: 2021-07-23 13:38:06
+date: 2021-07-23T13:38:06.000Z
 tags:
   - js
 categories: js
 cnblogs:
-  postid: "15393031"
-hash: db7bf0e5997794a8f909b1b87323b88b1bf2587d70b312ce34b68ec7bffef539
+  postid: '15393031'
+hash: a099e05a4129bd520fb591025449453b8f063520713426009effe5186732ed29
 ---
 
 原文地址：https://zhuanlan.zhihu.com/p/118793721

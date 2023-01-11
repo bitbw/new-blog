@@ -1,12 +1,12 @@
 ---
 title: Vue常用自定义指令
-date: 2021-03-25 10:19:42
+date: 2021-03-25T10:19:42.000Z
 tags:
   - Vue
 categories: Vue
 cnblogs:
-  postid: "15393019"
-hash: 114bc7829e9db6fac604e03dd21b6f6b072c5091f28bec1d3d76c69623daed26
+  postid: '15393019'
+hash: 841e661a9efb84ac057f34288a8e6eff270968cdfc852ea21cc5fdd1d69755e4
 ---
 
 Vue 常用自定义指令

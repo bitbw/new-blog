@@ -1,6 +1,6 @@
 ---
 title: picgo + typroa + github (gitee) 实现自动上传图床
-date: 2021-02-06 16:18:02
+date: 2021-02-06T16:18:02.000Z
 tags:
   - picgo
   - typora
@@ -8,8 +8,8 @@ tags:
   - gitee
 categories: 工具使用
 cnblogs:
-  postid: "15392984"
-hash: 4255ce77c8413554980c456e8f6ec9c73fd665e55b2a49b3f663b07574b17241
+  postid: '15392984'
+hash: 28f912eca09d2300025c93fb8637593c0456bb1189da8c52712936bb945848ab
 ---
 
 ## typora 结合 PicGo 设置 github 图床

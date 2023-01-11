@@ -1,13 +1,13 @@
 ---
 title: Linux系统安装Nodejs和卸载Nodejs
-date: 2020-12-13 09:57:32
+date: 2020-12-13T09:57:32.000Z
 tags:
   - Nodejs
   - Linux
 categories: Nodejs
 cnblogs:
-  postid: "15392583"
-hash: cdef7604e659ce53fdb4bd8e6ffbc6547ff43891efbb79e6dbefddb4926396d5
+  postid: '15392583'
+hash: 3690bc02c8635329f67abeb0c41d04096f93c7ae7e4f90ec9eea1f3706478065
 ---
 
 

@@ -1,15 +1,15 @@
 ---
 title: Vue-cli4+HbuilderX打包android+ios应用
-date: 2021-03-25 10:19:42
+date: 2021-03-25T10:19:42.000Z
 tags:
   - Vue
   - HbuilderX
   - android
   - ios
 categories: Vue
-hash: ae1e3be850d01a28630531378d131d318352a628b917cf34fd98b4dac1cf4588
+hash: d79f3ac66266ea6e68dac7b3fb9b1d1113c3787debc199e12f0244d661c34cde
 cnblogs:
-  postid: "15766336"
+  postid: '15766336'
 ---
 
 ## 打包 vue web 项目

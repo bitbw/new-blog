@@ -1,12 +1,12 @@
 ---
 title: DOM&BOM常见问题汇总
-date: 2021-03-25 09:56:48
+date: 2021-03-25T09:56:48.000Z
 tags:
   - DOM&BOM
 categories: js
 cnblogs:
-  postid: "15392413"
-hash: cc2d78a3be2b212cedfdad2d64404971604e5aeb86e2d0ad0310de4296aedcc6
+  postid: '15392413'
+hash: 6dee9b1d8667f436642bc2a16c0bc4ad6c0bb8fe8df9770f7d961e735cde1227
 ---
 
 # getBoundingClientRect 获取不准确

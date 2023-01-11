@@ -1,14 +1,14 @@
 ---
 title: path.resolve()的使用
-date: 2020-12-30 13:34:08
+date: 2020-12-30T13:34:08.000Z
 tags:
   - Nodejs
   - path
   - Nodejs
 categories: Nodejs
 cnblogs:
-  postid: "15392982"
-hash: 9ff99a267e6386c1796d7355ff8dd341908d239525d89dd539eb438e31d51cc0
+  postid: '15392982'
+hash: c41ba5c96f8074b831613405b142d6bccbc05fa23d935a0707ff273a43aed180
 ---
 
 ## 路径解析：path.resolve([from ...], to)

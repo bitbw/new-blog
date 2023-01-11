@@ -1,12 +1,12 @@
 ---
 title: Windows Termial设置
-date: 2021-04-13 17:47:54
+date: 2021-04-13T17:47:54.000Z
 tags:
   - windows
 categories: 工具使用
 cnblogs:
-  postid: "15393026"
-hash: c234eac4645de115f002a3e02ab6be70b63a26d7321a01ef02f4fd564a5eb6cf
+  postid: '15393026'
+hash: eb0972e5d7f75f6076347c3860e9262e44735dd71c56404d6c402be9b58cf5ff
 ---
 
 # Windows Termial

@@ -1,12 +1,12 @@
 ---
 title: VueCli常见问题汇总
-date: 2021-11-12 12:07:26
+date: 2021-11-12T12:07:26.000Z
 tags:
   - vue-cli
 categories: Vue
-hash: b9b5355d2d853dd7b7689ba5dcc15833f9b5cfe753574d6b8625431b0a10af82
+hash: 26595dedcd882abb216d7b67762193080506f6bb56709725d6d8130bb162efd3
 cnblogs:
-  postid: "15766342"
+  postid: '15766342'
 ---
 
 ### 去除 PWA 插件

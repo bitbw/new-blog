@@ -1,12 +1,12 @@
 ---
 title: Nodejs常用方法
-date: 2022-03-07 17:09:09
+date: 2022-03-07T17:09:09.000Z
 tags:
   - Nodejs
 categories: Nodejs
-hash: 52adf1249ec1464cb8ce627bd5cdd8649d76d848eb0cbd2d19cb199ae3d126f0
+hash: b751824da64a9d6a1eadf12527373a013c5faa1f7b2ab3364e4b14cf2b777d3f
 cnblogs:
-  postid: "15992803"
+  postid: '15992803'
 ---
 
 

@@ -1,13 +1,13 @@
 ---
 title: webpack入门(webpak4)
-date: 2021-01-02 16:09:17
+date: 2021-01-02T16:09:17.000Z
 tags:
   - Webpack
   - Webpack-cli
 categories: Webpack
 cnblogs:
-  postid: "15393023"
-hash: ce71f4fa97f7a53a5eb11b404b68d1d6a48f105809655611972789d27ccc3299
+  postid: '15393023'
+hash: 542430f107fa4cd0123f115fddd0b6371096e8e6c20f19b91663622d00571058
 ---
 
 ## webpack 基础知识

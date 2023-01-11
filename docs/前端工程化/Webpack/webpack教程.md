@@ -1,13 +1,13 @@
 ---
 title: webpack教程(5)
-date: 2021-01-02 16:24:55
+date: 2021-01-02T16:24:55.000Z
 tags:
   - Webpack
   - Webpack-cli
 categories: Webpack
 cnblogs:
-  postid: "15393022"
-hash: 1c68433b02c69bf36b44f3da136c087d2eb7eca3b6ed0a990d8c538f73add0cd
+  postid: '15393022'
+hash: e72828734056fb1bd3c365c489865ec83e43c2a9b3f80c1d2e66e3e9b55686bd
 ---
 
 # webpack 入门

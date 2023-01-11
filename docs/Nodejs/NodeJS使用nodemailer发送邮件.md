@@ -1,10 +1,13 @@
 ---
 title: nodejs使用nodemailer发送邮件
-date: 2022-07-14 10:45:24
+date: 2022-07-14T10:45:24.000Z
 tags:
   - Nodejs
   - nodemailer
 categories: Nodejs
+hash: b93cc032e92ef00d62cb7647646c58249a2945e6140a4f202ebf7cd9cd313851
+cnblogs:
+  postid: '17041102'
 ---
 
 [nodemailer 官网](https://nodemailer.com/)

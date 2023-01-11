@@ -1,14 +1,14 @@
 ---
 title: electron-builder添加自定义安装卸载界面
-date: 2021-04-12 11:52:18
+date: 2021-04-12T11:52:18.000Z
 tags:
   - Electron
   - electron-builder
   - nsis
 categories: Electron
 cnblogs:
-  postid: "15392415"
-hash: 7574148bdb9f1ddc93017a90745d1057411c415fc66d109680a09d32adf91115
+  postid: '15392415'
+hash: f5985fcaf2855abef95e58188ceb88ca8d442aa436ded9ab52de7311da06125c
 ---
 
 electron-builder 官方文档 ：https://www.electron.build/configuration/nsis#NsisOptions-script

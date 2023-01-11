@@ -1,12 +1,12 @@
 ---
 title: Vue3学习理解
-date: 2020-12-24 14:35:01
-tags: 
- - vue
+date: 2020-12-24T14:35:01.000Z
+tags:
+  - vue
 categories: Vue
 cnblogs:
-  postid: "15393014"
-hash: a82865093aa80cdd83d68664cc6c6d039abf5f5c9ac66efd2abddb8f56a3ae8e
+  postid: '15393014'
+hash: 33ed9ba6ab254d0df4b1938bc6bb154272d4b51da9987fa4ecfb3e3e0b0698fd
 ---
 
 # vue3 新特性
