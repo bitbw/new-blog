@@ -1,10 +1,13 @@
 ---
 title: picgo插件开发
-date: 2022-05-11 16:22:28
+date: 2022-05-11T16:22:28.000Z
 tags:
-    - picgo
-    - typora
+  - picgo
+  - typora
 categories: 工具使用
+hash: 9eefe65e81e30ff2f9083a584a196536bf9e6f421abff0612d4c749e184dc1e9
+cnblogs:
+  postid: '17041160'
 ---
 ## 借鉴文档
 

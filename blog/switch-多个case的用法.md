@@ -1,12 +1,12 @@
 ---
 title: switch 多个case的用法
-date: 2018-12-15 16:07:07
-tags: 
- - js
+date: 2018-12-15T16:07:07.000Z
+tags:
+  - js
 categories: js
 cnblogs:
-  postid: "15392992"
-hash: 6567de26d657b118656c1686f7e363d20955f3656f91ef1152544ab3b754210b
+  postid: '15392992'
+hash: 3602c4ea0f248d225c73f90e2699d224e00da3abd0b0962d46f8950eb2366e51
 ---
 
 switch 中想要多个判断都进到一个分支中可以这样写

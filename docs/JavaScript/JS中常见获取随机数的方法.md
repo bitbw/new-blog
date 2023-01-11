@@ -1,12 +1,12 @@
 ---
 title: JS中常见获取随机数的方法
-date: 2021-07-02 13:58:11
+date: 2021-07-02T13:58:11.000Z
 tags:
   - js
 categories: js
 cnblogs:
-  postid: "15392492"
-hash: b2438dd4644533a4c34c2df170d7ac638f73f79b6221efd416dc77912a7a554b
+  postid: '15392492'
+hash: 13c2ae1a442addc3db9437b09a7d51791edb6a37bd1feb9a07b54e82b8ec4ec4
 ---
 
 ## JS 获取固定区间的随机数

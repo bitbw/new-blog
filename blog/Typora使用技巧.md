@@ -1,13 +1,13 @@
 ---
 title: Typora使用技巧
-date: 2021-04-25 16:36:24
+date: 2021-04-25T16:36:24.000Z
 tags:
   - typora
   - 工具使用
 categories: 工具使用
 cnblogs:
-  postid: "15393005"
-hash: e7b8ec965924727c875f20b0646b409f50050afb2d128ad8ffc896c1c1f71fad
+  postid: '15393005'
+hash: be94544e684a85b20a9616172fc030f9bdb7122a3d50edd80669f4fd72c4182b
 ---
 
 typora，postman，vscode 等都是使用 electron 构建而成的桌面应用

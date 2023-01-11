@@ -1,12 +1,12 @@
 ---
 title: Nginx学习和常见问题汇总
-date: 2021-11-19 09:27:21
+date: 2021-11-19T09:27:21.000Z
 tags:
   - Nginx
 categories: 工具使用
-hash: bf3b6abb5e0e41793fbede8b23cccf6748a5025d6e6dde5193dc75f723d85868
+hash: 503dfbb797ab62418be922684dc465091cc34e2d8fd9cf2e4bc6b8f4921a1e01
 cnblogs:
-  postid: "15765975"
+  postid: '15765975'
 ---
 
 

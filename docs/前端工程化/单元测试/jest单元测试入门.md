@@ -1,13 +1,13 @@
 ---
 title: jest单元测试入门
-date: 2022-03-11 10:35:41
+date: 2022-03-11T10:35:41.000Z
 tags:
   - 单元测试
   - jest
 categories: 前端测试
-hash: f316b5a65de0cbc9e52dd2338af716cdf0b15f528418e7e858b0c3f84c42f571
+hash: c31d25cb5b8b9856613af01365af2d1ed1d219fe1d5f4e2db0829a5756460737
 cnblogs:
-  postid: "15992796"
+  postid: '15992796'
 ---
 
 

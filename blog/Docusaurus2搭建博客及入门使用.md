@@ -1,10 +1,14 @@
 ---
 title: Docusaurus2搭建博客及入门使用
-date: 2022-12-19 09:09:56
+date: 2022-12-19T09:09:56.000Z
 tags:
   - Docusaurus2
 categories: Docusaurus2
-keywords: [Docusaurus2]
+keywords:
+  - Docusaurus2
+hash: 47eda18de93189b3e5735c4f5fa259a0cf860cadcfc76cac3e37856cdb6fd296
+cnblogs:
+  postid: '17041159'
 ---
 
 

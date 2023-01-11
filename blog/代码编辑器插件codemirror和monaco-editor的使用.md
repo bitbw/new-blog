@@ -1,10 +1,13 @@
 ---
 title: 代码编辑器插件 codemirror 和 monaco-editor 的使用
-date: 2022-09-06 13:45:56
+date: 2022-09-06T13:45:56.000Z
 tags:
-    - monaco-editor
-    - codemirror
+  - monaco-editor
+  - codemirror
 categories: js插件
+hash: ca7077b708df562e6656ef6412cec263f2e0eba97c68a26b42567155bfea7187
+cnblogs:
+  postid: '17041162'
 ---
 
 ## codemirror

@@ -1,14 +1,14 @@
 ---
 title: GitHub Actions 的使用
-date: 2021-04-23 10:37:38
+date: 2021-04-23T10:37:38.000Z
 tags:
   - GitHub Actions
   - github
   - ci/cd
 categories: Github
 cnblogs:
-  postid: "15392422"
-hash: 24d86764c72165769991c506925929b4368bcc63fc28449f0961bb7210a78d68
+  postid: '15392422'
+hash: 3418a9b058bf331035aedc15de670230d5b03cabda88749135fde5487fe06882
 ---
 
 ## 自动部署：GitHub Actions

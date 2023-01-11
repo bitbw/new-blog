@@ -1,12 +1,12 @@
 ---
 title: AntV/G6入门
-date: 2022-03-07 16:47:17
+date: 2022-03-07T16:47:17.000Z
 tags:
   - AntV
 categories: 前端可视化
-hash: f75980fd4531d053327983b6ff6b3f655faf97f7668fe84e60f23038ae9bacac
+hash: fb8170ad171a0ca51c89a36da116ae79bc47d63515345854e9b74ab641da0c99
 cnblogs:
-  postid: "15992788"
+  postid: '15992788'
 ---
 
 

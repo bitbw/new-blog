@@ -1,13 +1,13 @@
 ---
 title: phpMyAdmin+XAMPP管理MySQL数据库
-date: 2021-04-22 17:30:03
+date: 2021-04-22T17:30:03.000Z
 tags:
   - phpMyAdmin
   - MySQL
 categories: SQL
 cnblogs:
-  postid: "15392983"
-hash: 064d54a1376c75934faae35cfdc151d812006d67879e4d4c6ebadcb491a328ea
+  postid: '15392983'
+hash: ffcba8e214e0c78e43264a34843198de850445d12510badd1f0ed0cd5701e2dd
 ---
 
 ## 安装 XAMPP

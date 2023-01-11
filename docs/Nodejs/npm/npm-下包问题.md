@@ -1,14 +1,14 @@
 ---
 title: npm 下包问题
-date: 2020-12-12 18:40:51
+date: 2020-12-12T18:40:51.000Z
 tags:
   - Nodejs
   - npm
   - js
 categories: Nodejs
 cnblogs:
-  postid: "15392980"
-hash: c655b2dcd4e79b434842304f9d87aa84944d9676805061f5c585f9fcdbe16bf9
+  postid: '15392980'
+hash: cfc426ee290c72b46a66e607bd93a98a66f0a7136dad57ff3de2165401b9f54f
 ---
 
 

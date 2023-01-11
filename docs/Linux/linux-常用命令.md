@@ -1,13 +1,13 @@
 ---
 title: linux 常用命令
-date: 2021-01-03 11:11:15
+date: 2021-01-03T11:11:15.000Z
 tags:
   - Linux
   - ubuntu
 categories: Linux
 cnblogs:
-  postid: "15392569"
-hash: 54f6cf476829d0d1c85e202d04ff281e8190bc1ac5319093d66b3bf325940515
+  postid: '15392569'
+hash: 96cf71af40727dd0d581e56194309a538a42d352fd8edbddb15f83a04df27969
 ---
 
 ## 退出和进入 root 权限

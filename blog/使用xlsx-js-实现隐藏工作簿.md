@@ -1,14 +1,14 @@
 ---
 title: 使用xlsx.js 实现隐藏工作簿
-date: 2020-12-13 17:15:41
+date: 2020-12-13T17:15:41.000Z
 tags:
   - js
   - XLSX
   - 插件
 categories: js插件
 cnblogs:
-  postid: "15393034"
-hash: 9b511f3e37f1fedda5a38b2a66fe5fc2938ad32046f9bf01440307e6525e96fb
+  postid: '15393034'
+hash: 6b3acabaaf4b000532220c1938485ba0e4c23f67625f83fd9c6c3ba7c3273bc8
 ---
 
 [SheetJS js-xlsx](http://sheetjs.com/) 中文文档： https://github.com/rockboom/SheetJS-docs-zh-CN

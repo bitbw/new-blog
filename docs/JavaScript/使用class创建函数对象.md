@@ -1,12 +1,12 @@
 ---
 title: 使用class创建函数对象
-date: 2022-04-15 16:14:27
-tags: 
- - es6
+date: 2022-04-15T16:14:27.000Z
+tags:
+  - es6
 categories: es6
-hash: 15c55770ae07caf344775ab27eea89a4f56281d904387352332705442c9d43f6
+hash: 7d17ae9fe5d618a0dbc9f1b4d87eda094e9a0ee0e1916f1b04ac4d5b02374823
 cnblogs:
-  postid: "16228118"
+  postid: '16228118'
 ---
 
 使用class创建函数对象 ,可以在 constructor 中返回一个函数 并设置其原型 === this

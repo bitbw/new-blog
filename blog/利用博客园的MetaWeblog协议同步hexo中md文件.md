@@ -1,19 +1,26 @@
 ---
-title: 利用博客园的MetaWeblog协议+nodejs同步hexo中md文件
-date: 2021-10-11 14:44:08
+title: 利用博客园的MetaWeblog协议+nodejs同步自建博客中的md文件
+date: 2023-01-11T14:44:08.000Z
 tags:
   - hexo
+  - docusaurus
   - 博客园
   - Nodejs
-categories: Hexo
-hash: 6ff5667e9d95b064dbd8673bb1e6758a8785edacf48faba12339637d5b779902
+categories: Blog
+hash: 93a5c9d0f99c49c31486ea2bce06f24ea6f89b01c3c3da9721837983a2166500
 cnblogs:
-  postid: "15393411"
+  postid: '15393411'
 ---
+## 背景
+
+因为一直在使用 hexo 自建博客，最近又切换到了 docusaurus ，但是又想同时发布到博客园，所以需要一个工具能将 md 文件直接发布到博客园，所以写了一个 [node 自动化上传脚本](https://github.com/bitbw/node-utils/blob/master/src/blog/postBlog.js) ，同时方便需要的人借鉴使用（2023年1月更新）
+下面简单描述下  MetaWeblog 协议的使用  
 
 ## 博客园的 MetaWeblog 协议的使用
 
-资料地址：https://www.cnblogs.com/caipeiyu/p/5354341.html背景
+[原资料地址](https://cloud.tencent.com/developer/article/1608220?from=14588)
+
+背景资料地址：<https://www.cnblogs.com/caipeiyu/p/5354341.html>
 
 想实现自己的文章一处编写，多处发布到各大平台（比如博客园，CSDN）等要怎么实现呢。需要由这些组成：
 
@@ -35,7 +42,7 @@ MetaWeblog 使用 xml-RPC 作为通讯协议。
 
 简单理解就是：在 HTTP 请求 中，发送 xml 格式描述的“调用指令”，如果调用成功，会收到 xml 格式描述的“执行结果”。
 
-### 2. 博客园文章相关接口：
+### 2. 博客园文章相关接口
 
 - blogger.getUsersBlogs —— 获取用户博客信息
 - metaWeblog.getRecentPosts —— 获取最近的文章
@@ -64,471 +71,136 @@ https://rpc.cnblogs.com/metaweblog/{userName}
 - POST 方式到： [https://rpc.cnblogs.com/metaweblog/](https://links.jianshu.com/go?to=https%3A%2F%2Frpc.cnblogs.com%2Fmetaweblog%2F){userName}
 - 请求中的内容是 HTML 格式，描述了调用参数
 
-### 2.3 接口协议
-
-#### 2.3.1 获取用户博客信息
-
-- 功能：获取用户博客信息
-- 方法名: blogger.getUsersBlogs
-- 参数：见下文代码
-
-示例：
-
-```javascript
-<?xml version="1.0"?>
-<methodCall>
-  <methodName>blogger.getUsersBlogs</methodName>
-  <params>
-    <param>
-        <value><string></string></value>
-    </param>
-    <param>
-        <value><string>{userName}</string></value>
-    </param>
-    <param>
-        <value><string>{password}</string></value>
-    </param>
-  </params>
-</methodCall>
-```
-
-#### 2.3.2 获取最近的文章
-
-- 功能：获取最近的文章
-- 方法名: metaWeblog.getRecentPosts
-- 参数：见下文代码
-
-```javascript
-<?xml version="1.0"?>
-<methodCall>
-  <methodName>metaWeblog.getRecentPosts</methodName>
-  <params>
-    <param>
-        <value><string>000000</string></value>
-    </param>
-    <param>
-        <value><string>{userName}</string></value>
-    </param>
-    <param>
-        <value><string>{password}</string></value>
-    </param>
-
-    <param>
-        <value><i4>1</i4></value>
-    </param>
-  </params>
-</methodCall>
-```
-
-#### 2.3.3 获取文章内容
-
-- 功能：获取文章内容
-- 方法名: metaWeblog.getPost
-- 参数：见下文代码
-
-```javascript
-<?xml version="1.0"?>
-    <methodCall>
-      <methodName>metaWeblog.getPost</methodName>
-      <params>
-        <param>
-            <value><string>{postid}</string></value>
-        </param>
-        <param>
-            <value><string>{userName}</string></value>
-        </param>
-        <param>
-            <value><string>{password}</string></value>
-        </param>
-      </params>
-</methodCall>
-```
-
-#### 2.3.4 添加文章
-
-- 功能：添加文章
-- 方法名: metaWeblog.newPost
-- 参数：见下文代码
-
-```javascript
-<?xml version="1.0"?>
-<methodCall>
-  <methodName>metaWeblog.newPost</methodName>
-  <params>
-    <param>
-        <value><string></string></value>
-    </param>
-    <param>
-        <value><string>{userName}</string></value>
-    </param>
-    <param>
-        <value><string>{password}</string></value>
-    </param>
-    <param>
-         <value>
-                <struct>
-                    <member>
-                        <name>description</name>
-                        <value>
-                            <string>博客测试内容</string>
-                        </value>
-                    </member>
-                    <member>
-                        <name>title</name>
-                        <value>
-                            <string>标题测试内容</string>
-                        </value>
-                    </member>
-                    <member>
-                        <name>categories</name>
-                        <value>
-                            <array>
-                                <data>
-                                    <value>
-                                        <string>[Markdown]</string>
-                                    </value>
-                                </data>
-                            </array>
-                        </value>
-                    </member>
-                </struct>
-            </value>
-    </param>
-    <param>
-        <value><boolean>0</boolean></value>
-    </param>
-  </params>
-</methodCall>
-```
-
-#### 2.3.5 编辑文章
-
-- 功能：编辑文章
-- 方法名: metaWeblog.editPost
-- 参数：见下文代码
-
-```javascript
-<?xml version="1.0"?>
-<methodCall>
-  <methodName>metaWeblog.editPost</methodName>
-  <params>
-    <param>
-        <value><string>{postid}</string></value>
-    </param>
-    <param>
-        <value><string>{userName}</string></value>
-    </param>
-    <param>
-        <value><string>{password}</string></value>
-    </param>
-    <param>
-         <value>
-                <struct>
-                    <member>
-                        <name>description</name>
-                        <value>
-                            <string>博客测试内容222</string>
-                        </value>
-                    </member>
-                    <member>
-                        <name>title</name>
-                        <value>
-                            <string>标题测试内容222</string>
-                        </value>
-                    </member>
-                    <member>
-                        <name>categories</name>
-                        <value>
-                            <array>
-                                <data>
-                                    <value>
-                                        <string>[Markdown]</string>
-                                    </value>
-                                </data>
-                            </array>
-                        </value>
-                    </member>
-                </struct>
-            </value>
-    </param>
-    <param>
-        <value><boolean>0</boolean></value>
-    </param>
-  </params>
-</methodCall>
-```
-
-#### 2.3.6 删除文章
-
-- 功能：删除文章
-- 方法名: blogger.deletePost
-- 参数：见下文代码
-
-```javascript
-<?xml version="1.0"?>
-<methodCall>
-  <methodName>blogger.deletePost</methodName>
-  <params>
-    <param>
-        <value><string></string></value>
-    </param>
-    <param>
-        <value><string>{postid}</string></value>
-    </param>
-    <param>
-        <value><string>{userName}</string></value>
-    </param>
-    <param>
-        <value><string>{password}</string></value>
-    </param>
-    <param>
-        <value><boolean>0</boolean></value>
-    </param>
-  </params>
-</methodCall>
-```
-
 ## 使用 nodejs 完成文件读写和接口调用
+
+资料
+
+- [metaweblog api 封装 metaweblog-api](https://github.com/uhavemyword/metaweblog-api)
+- [md 文件解析 gray-matter](https://www.npmjs.com/package/gray-matter#returned-object)
 
 ### index.js
 
 ```js
+
 /*
  * @Description: 批量将hexo中的md文件上传博客园
  * @Autor: Bowen
  * @Date: 2021-10-09 16:56:43
  * @LastEditors: Bowen
- * @LastEditTime: 2021-10-11 15:05:03
+ * @LastEditTime: 2023-01-11 10:09:47
  */
 
 const fs = require("fs").promises;
 const path = require("path");
-const YAML = require("yaml");
 const crypto = require("crypto");
-
-const { pushPost, getPost } = require("./api");
-
-const dirPath = "C:xxx/source/_posts";
+const matter = require("gray-matter");
+const { newPost, editPost } = require("./api");
 
 // 发布所有的文章
-async function hanleAllPushPost() {
+async function handleAllPushPost(dirPath) {
   let files = await fs.readdir(dirPath);
   for (const fileName of files) {
-    if (!/\.md/.test(fileName)) continue;
+    const filePath = path.resolve(dirPath, fileName);
+    // dir 继续递归
+    let stats = await fs.stat(filePath);
+    if (stats.isDirectory()) {
+      await handleAllPushPost(filePath);
+      continue;
+    }
     console.log("[********************************]");
     console.log("[fileName]", fileName);
-    const filePath = path.resolve(dirPath, fileName);
     // await new Promise((r) => setTimeout(r, 1000), true);
     await handlePushPost(filePath);
   }
 }
-// 将文章原始字符分解为obj数据
-function genArticleDate(articleOrigin) {
-  const datas = articleOrigin.split("---");
-  const temp = datas[1].replace(/\t/g, "");
-  const titleObj = YAML.parse(temp);
-  // datas.length > 3 为边际情况特殊处理一下
-  const contentData = datas.length > 3 ? datas.slice(2).join("---") : datas[2];
-  return {
-    titleObj,
-    contentData,
-  };
-}
-// 将obj数据合成文章
-function genArticleStr({ titleObj, contentData }) {
-  const titleStr = "\n" + YAML.stringify(titleObj);
-  const datas = ["", titleStr, contentData];
-  const str = datas.join("---");
-  return str;
-}
+
 // 根据path修改或者新建文章
 async function handlePushPost(filePath) {
   const fileName = path.basename(filePath);
-  const articleOrigin = await fs.readFile(filePath, "utf-8");
-  const { titleObj, contentData } = genArticleDate(articleOrigin);
+  // 解析 md 文件
+  const grayMatterFile = matter.read(filePath);
+  const { data, content } = grayMatterFile;
+  if (!data || !data.title) return;
+  // 获取当前哈希值 对比 之前的 哈希
   const hash = crypto.createHash("sha256");
-  hash.update(contentData);
-  // 当前hash
+  hash.update(content);
   let nowContentHash = hash.digest("hex");
-  let { cnblogs, hash: contentHash } = titleObj;
-  let res;
+  let { cnblogs, hash: contentHash } = data;
   if (contentHash && contentHash == nowContentHash) {
     console.log("[hash值未变退出当前循环]");
     return;
   }
   // yaml中添加 hash
-  titleObj.hash = nowContentHash;
+  data.hash = nowContentHash;
+  // 文章数据
+  const categories = Array.isArray(data.tags) ? data.tags : [];
+  // TODO: data.? 看自己的 md 文档是如何配置
+  const post = {
+    description: content,
+    title: data.title,
+    // 注意 要以 Markdown 格式发布 必须在 categories 中 添加  "[Markdown]"
+    categories: ["[Markdown]"].concat(categories),
+  };
+  let res;
   // 编辑
   if (cnblogs && cnblogs.postid) {
     console.log("[-------------修改-------------]");
-    res = await pushPost({
-      type: "edit",
-      content: contentData,
-      title: titleObj.title,
-      postid: cnblogs.postid,
-    });
-    if (res.methodResponse.fault) {
-      console.log(
-        "[修改失败]",
-        res.methodResponse.fault.value.struct.member[1].value.string
-      );
-      throw Error(res.methodResponse.fault.value.struct.member[1].value.string);
+    try {
+      res = await editPost(cnblogs.postid, post, true);
+    } catch (error) {
+      console.log("[修改失败]", error.message);
+      throw Error(error.message);
     }
-    console.log("[修改成功]", res.methodResponse.params.param.value.boolean);
+    console.log("[修改成功]", res);
   } else {
     console.log("[-------------新建-------------]");
-    titleObj.cnblogs = {};
-    res = await pushPost({
-      type: "add",
-      content: contentData,
-      title: titleObj.title,
-    });
-    res;
-    if (res.methodResponse.fault) {
-      console.log(
-        "[上传失败]",
-        res.methodResponse.fault.value.struct.member[1].value.string
-      );
-      throw Error(res.methodResponse.fault.value.struct.member[1].value.string);
+    data.cnblogs = {};
+    try {
+      res = await newPost(post, true);
+    } catch (error) {
+      console.log("[上传失败]", error.message);
+      throw Error(error.message);
     }
-    console.log("[上传成功]", res.methodResponse.params.param.value.string);
+    console.log("[上传成功]", res);
     // yaml中添加 postid
-    titleObj.cnblogs.postid = res.methodResponse.params.param.value.string;
+    data.cnblogs.postid = res;
   }
   // 回写数据
-  const str = genArticleStr({ titleObj, contentData });
+  const str = grayMatterFile.stringify();
   await fs.writeFile(filePath, str);
   console.log("[回写成功]", fileName);
+  // 等待 1分钟 后继续下一个
+  await new Promise((r) => setTimeout(r, 3500, true));
 }
 
-// test
-// handlePushPost("C:xxx/source/_posts/js中的微观任务和宏观任务.md");
-hanleAllPushPost();
+(async () => {
+  await handleAllPushPost("C:/bowen/product/new-blog/docs");
+  // await handleAllPushPost("C:/bowen/product/new-blog/blog");
+})();
+
+
 ```
 
 ### api.js
 
 ```js
-/*
- * @Description: 博客园 api 封装 ，common 中填写 用户名和密码
- * @Autor: Bowen
- * @Date: 2021-10-09 16:07:25
- * @LastEditors: Bowen
- * @LastEditTime: 2021-10-11 15:09:36
- */
-// 解析 xml
-const parser = require("xml2json");
-const axios = require("axios");
+const MetaWeblog = require("metaweblog-api");
+const apiUrl = "https://rpc.cnblogs.com/metaweblog/username"; // use your blog API instead
+const metaWeblog = new MetaWeblog(apiUrl);
 
-const _axios = axios.create();
-
-const common = `<param>
-    <value><string>{userName}</string></value>
-</param>
-<param>
-    <value><string>{password}</string></value>
-</param>`;
-
-// 添加响应拦截器
-axios.interceptors.response.use(
-  (response) => {
-    // 对响应数据做点什么
-    const json = parser.toJson(response.data);
-    const data = JSON.parse(json);
-    return data;
-  },
-  (error) => {
-    // 对响应错误做点什么
-    let msg =
-      error.response && error.response.data.message
-        ? error.response.data.message
-        : error;
-    console.error(
-      error.response ? `${error.response.status} : ${msg}` : `网络不可用`
-    );
-    return Promise.reject(error);
-  }
-);
-// 发布或修改文章
-function pushPost({ type = "add", content, title, postid }) {
-  return axios.post(
-    "https://rpc.cnblogs.com/metaweblog/bitbw",
-    `<?xml version="1.0"?>
-    <methodCall>
-    <methodName>metaWeblog.${
-      type === "add" ? "newPost" : "editPost"
-    }</methodName>
-    <params>
-    <param>
-        <value><string>${type === "add" ? "623687" : postid}</string></value>
-    </param>
-    ${common}
-        <param>
-            <value>
-                    <struct>
-                        <member>
-                            <name>description</name>
-                            <value>
-                                <string>${XMLEscape(content)}</string>
-                            </value>
-                        </member>
-                        <member>
-                            <name>title</name>
-                            <value>
-                                <string>${XMLEscape(title)}</string>
-                            </value>
-                        </member>
-                        <member>
-                            <name>categories</name>
-                            <value>
-                                <array>
-                                    <data>
-                                        <value>
-                                            <string>[Markdown]</string>
-                                        </value>
-                                    </data>
-                                </array>
-                            </value>
-                        </member>
-                    </struct>
-                </value>
-        </param>
-        <param>
-            <value><boolean>1</boolean></value>
-        </param>
-    </params>
-    </methodCall>`
-  );
-}
-// 获取文章数据
-function getPost({ postid }) {
-  return axios.post(
-    "https://rpc.cnblogs.com/metaweblog/bitbw",
-    `<?xml version="1.0"?>
-<methodCall>
- <methodName>metaWeblog.getPost</methodName>
-  <params>
-    <param>
-        <value><string>${postid}</string></value>
-    </param>
-   ${common}
-  </params>
-</methodCall>`
-  );
-}
-
-function XMLEscape(content) {
-  let newContent = content;
-  newContent = newContent.replace(/&/g, "&amp;");
-  newContent = newContent.replace(/</g, "&lt;");
-  newContent = newContent.replace(/>/g, "&gt;");
-  newContent = newContent.replace(/"/g, "&quot;");
-  newContent = newContent.replace(/'/g, "&apos;");
-  return newContent;
-}
+const username ="username"
+const password ="password || token"
+const blogid ='blogid' // 通过 getUsersBlogs 查询
+const appKey =''
+const numberOfPosts =1
 
 module.exports = {
-  pushPost,
-  getPost,
-};
+  getUsersBlogs:()=> metaWeblog.getUsersBlogs(appKey, username, password),
+  getRecentPosts:()=> metaWeblog.getRecentPosts(blogid, username, password, numberOfPosts),
+  getCategories:()=> metaWeblog.getCategories(blogid, username, password),
+  getPost:(postid)=> metaWeblog.getPost(postid, username, password),
+  newPost: (post, publish)=> metaWeblog.newPost(blogid, username, password, post, publish),
+  editPost: ( postid ,post, publish)=> metaWeblog.editPost(postid, username, password, post, publish),
+  deletePost: ()=> metaWeblog.deletePost(appKey, postid, username, password, publish),
+}
 ```

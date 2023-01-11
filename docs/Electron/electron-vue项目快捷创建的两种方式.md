@@ -1,13 +1,13 @@
 ---
 title: electron+vue项目快捷创建的两种方式
-date: 2021-06-04 17:16:27
+date: 2021-06-04T17:16:27.000Z
 tags:
   - Vue
   - Electron
 categories: Electron
 cnblogs:
-  postid: "15393040"
-hash: 3ffdd4e43d084b7b5de813a8332eeef4c5ea1a23b927a7145026bd24f128bc90
+  postid: '15393040'
+hash: b6e8597d136476ce496e17e7b05b45495e27a2a294d9c3b0bf84a8fe8051cc32
 ---
 
 ## 使用 vue-cli-plugin-electron-builder 生成项目(推荐)

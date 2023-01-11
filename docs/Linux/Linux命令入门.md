@@ -1,13 +1,13 @@
 ---
 title: Linux命令入门
-date: 2021-02-06 08:54:56
+date: 2021-02-06T08:54:56.000Z
 tags:
   - Linux
   - ubuntu
 categories: Linux
 cnblogs:
-  postid: "15392578"
-hash: 58634bb6a79d9639f686a054b1a48ac529ba799ad0b5f7ff0bfb95a81b54ebca
+  postid: '15392578'
+hash: 53c7f86eace1ac47316cf6013958a2f1e7bd927880ba07b9254f6bf94b60b41f
 ---
 
 > 本文汇总了 本人学习 `Linux入门` 的所有教程

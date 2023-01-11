@@ -1,13 +1,13 @@
 ---
 title: React初始化项目
-date: 2021-11-21 12:20:03
+date: 2021-11-21T12:20:03.000Z
 tags:
   - antd
   - redux
 categories: React
-hash: 1dd7da676ccd0bf0ea9439a7fa5ca4eea991adb613c0da95efd9063305ab02df
+hash: 198d350ec67082adfa260cd373dd3849fefe2b58b1152a114a9a25d2d27ffcca
 cnblogs:
-  postid: "15766317"
+  postid: '15766317'
 ---
 
 ## 创建项目

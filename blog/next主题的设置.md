@@ -1,14 +1,14 @@
 ---
 title: NexT主题的设置 - hexo新版主题next7.x设置
-date: 2020-08-01 12:46:20
+date: 2020-08-01T12:46:20.000Z
 tags:
   - hexo
   - next
   - NexT
 categories: Hexo
 cnblogs:
-  postid: "15392586"
-hash: ca50e38108c66ee7d5e4ca8ca567aa9f19196fa25e8b4e4f71d0377ab9ec94c4
+  postid: '15392586'
+hash: 69bd4043d5105ec7fcd9728165578ac2c66ae178dff3298660fedd0903351c47
 ---
 
 # hexo 新版主题 next7.x 设置

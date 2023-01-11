@@ -1,12 +1,12 @@
 ---
 title: 基于service-worker实现部署后提示用户刷新
-date: 2022-04-28 10:22:38
+date: 2022-04-28T10:22:38.000Z
 tags:
   - service-worker
 categories: js
-hash: d4ec319c64f316b0e9f9dd518b0470a9ec75d52b1d7851b309804347a8f7653d
+hash: f4aa4f523fe89d5dca09a4d0a537030ab3424815ff85ed28e20f54332de8da4a
 cnblogs:
-  postid: "16228128"
+  postid: '16228128'
 ---
 
 ## Vue项目部署新版本后提示用户刷新浏览器

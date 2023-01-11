@@ -1,12 +1,12 @@
 ---
 title: Vue原理
-date: 2019-12-14 21:18:01
-tags: 
- - vue
+date: 2019-12-14T21:18:01.000Z
+tags:
+  - vue
 categories: Vue
-hash: 2c3db1b3323f4b5f263bfeadef9c9b9654fc4fb3cb4db53a5aa298408477bcd7
+hash: baab0e6b4af0a7a1982ed1420347e436ba9570dc4220c926fa7756186434af9b
 cnblogs:
-  postid: "15931427"
+  postid: '15931427'
 ---
 
 ## Vue更新数据流程流程

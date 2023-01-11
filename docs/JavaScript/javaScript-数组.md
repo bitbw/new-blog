@@ -1,12 +1,12 @@
 ---
 title: javaScript-数组
-date: 2016-6-25 23:10:55
-tags: 
- - js
+date: 2016-06-25T23:10:55.000Z
+tags:
+  - js
 categories: js
 cnblogs:
-  postid: "15392429"
-hash: d5a1334cf1622bc13060d3a80bbc45ed2fc8fc2ec4605534133497270cb7540b
+  postid: '15392429'
+hash: 5f8a979e4c88aeee44698a2543f054f9e07e9c7ef85aa9c4054a10ae0998d3ba
 ---
 
 ## 介绍

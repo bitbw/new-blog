@@ -1,12 +1,12 @@
 ---
 title: 模拟一个MVVM框架-Vue实现思路
-date: 2019-12-14 21:18:01
-tags: 
- - vue
+date: 2019-12-14T21:18:01.000Z
+tags:
+  - vue
 categories: Vue
 cnblogs:
-  postid: "15393043"
-hash: e0b8a67a624086824ce51c119a5f32605a3d976a2cf76048c8d4c0f2c687c52e
+  postid: '15393043'
+hash: b0ff5c7ba9e8174e8d974c6f47fb5b2fec6dc1ad31a702a1020e00f5206f0127
 ---
 
 ## MVVM 框架介绍

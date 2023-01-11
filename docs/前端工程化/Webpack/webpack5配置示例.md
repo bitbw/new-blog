@@ -1,13 +1,13 @@
 ---
 title: webpack5配置示例
-date: 2022-04-29 09:36:49
+date: 2022-04-29T09:36:49.000Z
 tags:
   - Webpack
   - Webpack-cli
 categories: Webpack
-hash: 80b2c460eb546065acb39db2f51e328e0c96316e6cff45d0aa5b9f103e3a71b1
+hash: bd3053c076181308a1a4962a857ca0fbfc374bc258f08d981b5963a896784285
 cnblogs:
-  postid: "16228100"
+  postid: '16228100'
 ---
 
 ## 简易 webpack 开发环境配置

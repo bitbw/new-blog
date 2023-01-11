@@ -1,9 +1,12 @@
 ---
 title: 使用 MongoDB Atlas （MongoDB云服务）
-date: 2022-12-16 17:30:03
+date: 2022-12-16T17:30:03.000Z
 tags:
   - MongoDB
 categories: SQL
+hash: 45ddfeea771b0d224e4eee48ca1ad3ed704a6d8044bc85a03ac7da0ea2944885
+cnblogs:
+  postid: '17041152'
 ---
 
 [官方文档](https://www.mongodb.com/docs/atlas/getting-started/)

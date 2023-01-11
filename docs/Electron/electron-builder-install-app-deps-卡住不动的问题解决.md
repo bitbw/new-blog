@@ -6,10 +6,10 @@ tags:
   - npm
   - js
 categories: Electron
-date: 2020-12-13 11:15:36
+date: 2020-12-13T11:15:36.000Z
 cnblogs:
-  postid: "15393048"
-hash: 28b9620e0fbfb06fdff78fbcb4ff9ec1ba72b0181634f715e04c3f3349b26caf
+  postid: '15393048'
+hash: 40c0605b16785e28bff6cc2cb6f9dca9f7a7efce4ce1e3e3bfc0683f6d9cc4fd
 ---
 
 背景：使用 electron-builder 和 @journeyapps/sqlcipher 的项目 ，在新电脑上 clone 项目，npm 装包时遇到错误

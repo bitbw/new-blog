@@ -1,12 +1,12 @@
 ---
 title: express入门
-date: 2022-03-07 17:09:09
+date: 2022-03-07T17:09:09.000Z
 tags:
   - express
 categories: Nodejs
-hash: 4bacb61a4dcc7d4c735bec943e89acde8e9d69ac1fd79534e1035b9d6b068c42
+hash: 07b77ab49170b6be3866a365d1bbaedb6693da45ab130941f156d7f18deffe92
 cnblogs:
-  postid: "15992790"
+  postid: '15992790'
 ---
 
 

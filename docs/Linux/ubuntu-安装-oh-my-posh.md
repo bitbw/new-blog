@@ -1,6 +1,6 @@
 ---
 title: ubuntu 安装 oh-my-posh
-date: 2021-04-15 13:35:05
+date: 2021-04-15T13:35:05.000Z
 tags:
   - Linux
   - ubuntu
@@ -8,8 +8,8 @@ tags:
   - oh-my-posh
 categories: Linux
 cnblogs:
-  postid: "15393007"
-hash: e2d50f092b31e83b2f947e152b82f475b8f08fa5b2f36cdcebafcadd14264396
+  postid: '15393007'
+hash: 0580966f65da111c3d332fd0729b8624e7d920e2304a8e49f4c54247773e1f78
 ---
 
 ## 前言

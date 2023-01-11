@@ -1,13 +1,13 @@
 ---
 title: CSS里的pointer-events属性
-date: 2020-12-30 09:57:22
+date: 2020-12-30T09:57:22.000Z
 tags:
   - CSS
   - Vuetify
 categories: CSS
 cnblogs:
-  postid: "15392410"
-hash: 12cf163e1e5854765a8eb020d8fb94e241c394fef0fa30c9aba928ab8118854e
+  postid: '15392410'
+hash: da26f662afb2884164f1c5e914c89d133190529da2948add04a1435dcfaea62f
 ---
 
 ## 因为 pointer-events 出现的问题

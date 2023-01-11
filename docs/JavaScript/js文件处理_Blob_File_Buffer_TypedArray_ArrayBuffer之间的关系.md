@@ -1,10 +1,13 @@
 ---
 title: js文件处理 Blob File Buffer TypedArray ArrayBuffer之间的关系
-date: 2022-06-08 16:33:44
+date: 2022-06-08T16:33:44.000Z
 tags:
-    - js
-    - Nodejs
+  - js
+  - Nodejs
 categories: js
+hash: 10e0d78d31d318273d6687f9b66dc2821c656d3cac8665b4fecfba8937043fda
+cnblogs:
+  postid: '17041101'
 ---
 
 ## 官方文档

@@ -1,12 +1,12 @@
 ---
 title: vscode设置文件以何种方式高亮解析
-date: 2020-12-24 09:43:58
-tags: 
- - vscode
+date: 2020-12-24T09:43:58.000Z
+tags:
+  - vscode
 categories: 工具使用
 cnblogs:
-  postid: "15393011"
-hash: d1f6ae7a5d915a2e9c9562d296cd931f8ebf82b17d1f4a8d1968fe9e3eeb64bc
+  postid: '15393011'
+hash: 5059eaaa2283b97dcb78382bb12533f23e8faf22664211439f74900890fec43a
 ---
 
 > 在实际工作中有时需要用到只定义文件后缀 ， 我最近遇到的项目需要定义.rule 文件 ，但语法类似 javascript，文件编辑起来很费劲，因为不带高亮和语法提示，每次修改文件后缀也麻烦 ，我需要的是.rule 文件，以 jjavascript 的方式让 vscode 解析提示和高亮；

@@ -1,9 +1,12 @@
 ---
 title: javaScript Object.is和==和===
-date: 2016-9-0 21:25:48
-tags: 
- - js
+date: 2016-08-31T21:25:48.000Z
+tags:
+  - js
 categories: js
+hash: 3749274440ff2f0cc985993f196841326f38cd1eaed8e50adb802cb9a7581f0f
+cnblogs:
+  postid: '17041100'
 ---
 
 ## 相等运算符 ( ==)

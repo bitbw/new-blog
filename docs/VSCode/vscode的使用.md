@@ -1,9 +1,12 @@
 ---
 title: vscode的使用
-date: 2022-05-21 10:23:02
-tags: 
- - vscode
+date: 2022-05-21T10:23:02.000Z
+tags:
+  - vscode
 categories: 工具使用
+hash: 27e68b0b12061a7c7f19da9f462203d3b3508f0f1d0e3233aaf97905b39b869f
+cnblogs:
+  postid: '17041109'
 ---
 
 ## vscode 工作区 settings.json 位置

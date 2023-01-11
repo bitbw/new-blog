@@ -1,9 +1,12 @@
 ---
 title: NodeJS常见问题汇总
-date: 2022-08-25 15:30:59
+date: 2022-08-25T15:30:59.000Z
 tags:
   - Nodejs
 categories: Nodejs
+hash: 93776cdd40235718f9f779dedbb11dc4b40386da553f313749af85eb5c53b1ef
+cnblogs:
+  postid: '17041104'
 ---
 
 ## 报错 libcrypto.so.1.1: cannot open shared object file: No such file or directory

@@ -1,10 +1,13 @@
 ---
 title: electron-builder双击文件打开关联应用(文件关联)
-date: 2022-07-27 17:28:24
+date: 2022-07-27T17:28:24.000Z
 tags:
   - electron-builder
   - Electron
 categories: Electron
+hash: 7e9d86f1ab10b1d39943752c1b5f54f360e3c2356530d6db22339103b62df770
+cnblogs:
+  postid: '17041094'
 ---
 
 [参考文章](https://blog.csdn.net/jingjingchen1014/article/details/121223905)

@@ -1,9 +1,12 @@
 ---
 title: Docker 利用buildx插件构建多平台镜像
-date: 2022-09-06 17:46:42
+date: 2022-09-06T17:46:42.000Z
 tags:
   - Docker
 categories: 工具使用
+hash: ab3e7a9a48c2cb7097099af6c4fd7a2b8cf50e842a3da2bcab12e6b07ebca75c
+cnblogs:
+  postid: '17041151'
 ---
 
 

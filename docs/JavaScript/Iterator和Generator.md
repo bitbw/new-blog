@@ -1,13 +1,13 @@
 ---
 title: Iterator和Generator
-date: 2021-03-25 16:27:30
+date: 2021-03-25T16:27:30.000Z
 tags:
   - es6
   - js
 categories: js
 cnblogs:
-  postid: "15392426"
-hash: 8f292c7468d917791fce308c1a0eb01f7d4417b9dce5884680198cdc74ee12d6
+  postid: '15392426'
+hash: 4924c54b6dee8fb91c9d3add43c601d978c0f179beede347135ff6995ee4db9f
 ---
 
 Iterator 和 Generator
