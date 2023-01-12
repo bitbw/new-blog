@@ -1,6 +1,8 @@
 ---
 title: Windows Termial设置
 date: 2021-04-13T17:47:54.000Z
+authors:
+  - bowen
 tags:
   - windows
 categories: 工具使用

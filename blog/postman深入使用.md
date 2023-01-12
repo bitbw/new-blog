@@ -1,6 +1,8 @@
 ---
 title: postman 深入使用
 date: 2018-11-28T16:56:05.000Z
+authors:
+  - bowen
 tags:
   - 工具使用
   - postman

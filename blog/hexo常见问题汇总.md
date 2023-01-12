@@ -1,6 +1,8 @@
 ---
 title: hexo常见问题汇总
 date: 2019-11-28T17:25:06.000Z
+authors:
+  - bowen
 tags:
   - hexo
 categories: Hexo

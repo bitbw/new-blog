@@ -1,6 +1,8 @@
 ---
 title: picgo + typroa + github (gitee) 实现自动上传图床
 date: 2021-02-06T16:18:02.000Z
+authors:
+  - bowen
 tags:
   - picgo
   - typora

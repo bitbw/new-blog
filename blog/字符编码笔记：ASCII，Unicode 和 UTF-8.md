@@ -1,6 +1,8 @@
 ---
 title: 字符编码笔记：ASCII，Unicode 和 UTF-8
 date: 2020-12-07T14:48:29.000Z
+authors:
+  - bowen
 tags:
   - 计算机通用知识
   - js

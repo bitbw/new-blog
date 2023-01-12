@@ -1,6 +1,8 @@
 ---
 title: NexT主题的设置 - hexo新版主题next7.x设置
 date: 2020-08-01T12:46:20.000Z
+authors:
+  - bowen
 tags:
   - hexo
   - next

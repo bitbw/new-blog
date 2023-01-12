@@ -1,6 +1,8 @@
 ---
 title: Typora使用技巧
 date: 2021-04-25T16:36:24.000Z
+authors:
+  - bowen
 tags:
   - typora
   - 工具使用

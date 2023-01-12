@@ -1,6 +1,8 @@
 ---
 title: '[转载]node-pre-gyp以及node-gyp的源码简单解析（以安装sqlite3为例）'
 date: 2020-12-13T13:05:13.000Z
+authors:
+  - bowen
 tags:
   - Nodejs
 categories: Nodejs

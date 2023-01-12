@@ -1,6 +1,8 @@
 ---
 title: Web前端高频面试题全解析记录
 date: 2021-10-09T15:28:01.000Z
+authors:
+  - bowen
 tags:
   - 面试
 categories: 面试

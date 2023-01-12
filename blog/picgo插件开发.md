@@ -1,6 +1,8 @@
 ---
 title: picgo插件开发
 date: 2022-05-11T16:22:28.000Z
+authors:
+  - bowen
 tags:
   - picgo
   - typora
