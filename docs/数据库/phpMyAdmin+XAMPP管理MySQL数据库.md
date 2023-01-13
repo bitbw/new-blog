@@ -56,7 +56,7 @@ xampp 启动时显示的错误为：
 （1）windows10
 （2）XAMPP
 
-![在这里插入图片描述](https://bitbw.top/public/img/my_gallery/20210826150603.png)
+![在这里插入图片描述](https://s2.loli.net/2023/01/13/YedoZ2PpGgr4HBi.png)
 
 （3）mysql 8x 版本
 
@@ -64,23 +64,23 @@ xampp 启动时显示的错误为：
 第一步：明确问题
 查看自己的 XAMPP 的问题
 
-![在这里插入图片描述](https://bitbw.top/public/img/my_gallery/20190727093444445.png)
+![在这里插入图片描述](https://s2.loli.net/2023/01/13/y4KdYB2qGQrkSFj.png)
 
 可见 mysql 启动不了
 
 第二步：关闭你已经安装的 mysql 服务
 ctrl+R：输入 services.msc
 
-![在这里插入图片描述](https://bitbw.top/public/img/my_gallery/20190727180514111.png)
+![在这里插入图片描述](https://s2.loli.net/2023/01/13/o6IebCyYPWFu58B.png)
 
 关闭服务
 
-![在这里插入图片描述](https://bitbw.top/public/img/my_gallery/20190727180457156.png)
+![在这里插入图片描述](https://s2.loli.net/2023/01/13/6g7rm9cT3Vn4o5E.png)
 
 第三步：修改路径
 （1）在上图服务中，找到 MySQL80 的属性
 
-![img](https://bitbw.top/public/img/my_gallery/20210826150253.png)
+![img](https://s2.loli.net/2023/01/13/tefGhgHMPXLpsFv.png)
 
 可以看到有一个可执行文件路径，对它进行修改
 （2）找到注册表
@@ -94,7 +94,7 @@ ctrl+R：输入 regedit.exe
 
 （3）修改 ImagePath 路径
 
-![image-20210826150445318](https://bitbw.top/public/img/my_gallery/20210826150445.png)
+![image-20210826150445318](https://s2.loli.net/2023/01/13/zpNkwCnmfL78Wqh.png)
 
 把上图的路径修改到下图 XAMPP 中 my.ini 的路径上
 注意：以防修改错误你可以把当前路径备份
@@ -114,4 +114,4 @@ Error: Cannot create file “D:xampp\xampp-controlin”.拒绝访问
 
 右键该应用程序，在属性对话框选择"兼容性"–>“以管理员身份运行此程序”
 
-![在这里插入图片描述](https://bitbw.top/public/img/my_gallery/9295a630b3aa4adc87c09ffd991663a9.png)
+![在这里插入图片描述](https://s2.loli.net/2023/01/13/geH5S6vbq3Z9wzL.png)

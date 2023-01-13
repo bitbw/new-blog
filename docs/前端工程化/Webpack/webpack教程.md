@@ -51,7 +51,7 @@ webpack 出来之前，还有一些别的构建工具：
 
 如果你需要定制这些脚手架工具，那么最好了解一点儿 webpack 相关的内容，例如对项目进行打包优化，配置开发工具模式，。。。。一些更高级的使用方式。
 
-![image-20191122114402722](https://bitbw.top/public/img/my_gallery/image-20191122114402722.png)
+![image-20191122114402722](https://s2.loli.net/2023/01/13/rKoZMGXjiAuYvxk.png)
 
 打包 -> 打包结果 -> 浏览器就可以识别运行。
 
@@ -94,7 +94,7 @@ npm install --save-dev webpack webpack-cli
 
 3、将 package.json 的 `scripts` 中新增
 
-![image-20191122121632366](https://bitbw.top/public/img/my_gallery/image-20191122121632366.png)
+![image-20191122121632366](https://s2.loli.net/2023/01/13/sSw7ONoHafMzTUq.png)
 
 三、打包
 
@@ -182,7 +182,7 @@ module.exports = {
 
 2、然后修改 `package.json` 文件中的 `build` 配置项（非必须）
 
-![image-20191122124307295](https://bitbw.top/public/img/my_gallery/image-20191122124307295.png)
+![image-20191122124307295](https://s2.loli.net/2023/01/13/LA8jcgiKah3rlmw.png)
 
 > webpack 会自动加载执行名字叫 `webpack.config.js` 的配置文件，如果你使用了别的名字，那么就在这里自定义.
 
@@ -212,7 +212,7 @@ mode 用来配置打包模式，有两种模式可选：
 
 建议开发过程使用开发模式，发布上线使用生产模式。
 
-![image-20191122155129511](https://bitbw.top/public/img/my_gallery/image-20191122155129511.png)
+![image-20191122155129511](https://s2.loli.net/2023/01/13/U2Axu8Fw6k1LTfD.png)
 
 ## 打包 CSS
 
@@ -224,7 +224,7 @@ npm install --save-dev style-loader css-loader
 
 2、修改打包配置文件
 
-![image-20191122152632937](https://bitbw.top/public/img/my_gallery/image-20191122152632937.png)
+![image-20191122152632937](https://s2.loli.net/2023/01/13/xhbYArSnqsveLaQ.png)
 
 3、打包测试
 
@@ -238,7 +238,7 @@ npm install --save-dev file-loader
 
 2、配置
 
-![image-20191122153520233](https://bitbw.top/public/img/my_gallery/image-20191122153520233.png)
+![image-20191122153520233](https://s2.loli.net/2023/01/13/uIg2XMwJfvYU13R.png)
 
 3、打包配置
 
@@ -301,7 +301,7 @@ module.exports = {
 
 还是使用 file-loader，只需要增加一个配置规则即可：
 
-![image-20191122162620802](https://bitbw.top/public/img/my_gallery/image-20191122162620802.png)
+![image-20191122162620802](https://s2.loli.net/2023/01/13/Q8LWZvatrq1fTo7.png)
 
 ## 打包 Less
 
@@ -314,7 +314,7 @@ npm install less less-loader style-loader css-loader --save-dev
 
 2、配置
 
-![image-20191122163446652](https://bitbw.top/public/img/my_gallery/image-20191122163446652.png)
+![image-20191122163446652](https://s2.loli.net/2023/01/13/yFROIGDWaju56l9.png)
 
 3、打包测试
 
@@ -334,7 +334,7 @@ npm install -D babel-loader @babel/core @babel/preset-env webpack
 
 2、配置
 
-![image-20191122165529066](https://bitbw.top/public/img/my_gallery/image-20191122165529066.png)
+![image-20191122165529066](https://s2.loli.net/2023/01/13/G6xpgaVsJXnuL49.png)
 
 3、打包测试
 
@@ -365,7 +365,7 @@ npm install --save @babel/polyfill
 
 2、配置
 
-![image-20191124090523101](https://bitbw.top/public/img/my_gallery/image-20191124090523101.png)
+![image-20191124090523101](https://s2.loli.net/2023/01/13/oMTD41ZwyeSsVhJ.png)
 
 3、打包测试
 
@@ -373,19 +373,19 @@ npm install --save @babel/polyfill
 
 当代码文件比较多的时候，babel 打包非常耗时，我们建议开启缓存用以提高打包的效率。
 
-![image-20191124091122427](https://bitbw.top/public/img/my_gallery/image-20191124091122427.png)
+![image-20191124091122427](https://s2.loli.net/2023/01/13/ZNJiHa8khmj9t4q.png)
 
 ## 增加 source maps
 
 > 建议阅读：[An Introduction to Source Maps](https://blog.teamtreehouse.com/introduction-source-maps)
 
-![image-20191124093220937](https://bitbw.top/public/img/my_gallery/image-20191124093220937.png)
+![image-20191124093220937](https://s2.loli.net/2023/01/13/FXDa2tUsifmTk6H.png)
 
 ## 使用 watch 监视模式
 
 在 package.json 文件中新增一个 scripts 脚本：
 
-![image-20191124095723565](https://bitbw.top/public/img/my_gallery/image-20191124095723565.png)
+![image-20191124095723565](https://s2.loli.net/2023/01/13/uhQpKcgOE4Mv2yx.png)
 
 ## 使用 webpack-dev-server
 
@@ -402,11 +402,11 @@ npm install --save-dev webpack-dev-server
 
 2、配置
 
-![image-20191124100620633](https://bitbw.top/public/img/my_gallery/image-20191124100620633.png)
+![image-20191124100620633](https://s2.loli.net/2023/01/13/UGSA5ozQwM36VjZ.png)
 
 > 在 `webpack.config.js` 中新增的配置项
 
-![image-20191124100646425](https://bitbw.top/public/img/my_gallery/image-20191124100646425.png)
+![image-20191124100646425](https://s2.loli.net/2023/01/13/3K8iHO9xyemrjEu.png)
 
 > 在 `package.json` 文件中新增 NPM Scripts 脚本
 
@@ -420,7 +420,7 @@ npm run serve
 
 webpack-dev-server 默认是刷新整个页面实现更新。我们有一种更好的方式：热更新，可以在不刷新页面的情况下更新内容变化，效率更高。
 
-![image-20191124101715767](https://bitbw.top/public/img/my_gallery/image-20191124101715767.png)
+![image-20191124101715767](https://s2.loli.net/2023/01/13/nve5NuFP42tUWDA.png)
 
 > 在 webpack 配置文件中
 
@@ -436,7 +436,7 @@ npm install -D vue-loader vue-template-compiler
 
 2、配置
 
-![image-20191124104029319](https://bitbw.top/public/img/my_gallery/image-20191124104029319.png)
+![image-20191124104029319](https://s2.loli.net/2023/01/13/wus9JHLhoryBcQf.png)
 
 3、打包测试
 
@@ -453,13 +453,13 @@ webpack 默认只支持省略：
 
 如果想要让其支持其它的可省略的后缀名，需要单独配置。
 
-![image-20191124110450652](https://bitbw.top/public/img/my_gallery/image-20191124110450652.png)
+![image-20191124110450652](https://s2.loli.net/2023/01/13/wD3Ph2YkIvpFgu5.png)
 
 ## 配置路径别名
 
 在 Vue CLI 项目中，使用过一个路径别名：`@`，它表示 `src` 的路径。
 
-![image-20191124111510567](https://bitbw.top/public/img/my_gallery/image-20191124111510567.png)
+![image-20191124111510567](https://s2.loli.net/2023/01/13/EOZ5BCvoLWw7n3I.png)
 
 ## 使用 ESLint
 
@@ -479,7 +479,7 @@ npm install eslint eslint-loader --save-dev
 
 2、配置 webpack 配置文件
 
-![image-20191124115208034](https://bitbw.top/public/img/my_gallery/image-20191124115208034.png)
+![image-20191124115208034](https://s2.loli.net/2023/01/13/timTIPpjHXC2k7J.png)
 
 > 在 webpack 配置文件的 module.rules 中新增
 

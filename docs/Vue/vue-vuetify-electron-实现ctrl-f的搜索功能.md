@@ -17,7 +17,7 @@ hash: 5d07ba4b3a480dcd58893d3f097b4a8c1742959f6eebaec6c0b5ac311ce63582
 
 ### 效果
 
-![实现ctrl+f的搜索功能](https://bitbw.top/public/img/my_gallery/实现ctrl+f的搜索功能.gif)
+![实现ctrl+f的搜索功能](https://s2.loli.net/2023/01/13/JQSm1PCY2cLnplB.gif)
 
 <!-- more -->
 

@@ -34,7 +34,7 @@ hash: 0cfa44970bd38f38cc6c214988a2688950fdeeac83a63176221de4287f2fdeaf
 
 - 使用 typroa 修改图片路径 下面这种方法 typroa 会自动保存到命名文件夹下，并自动 encode
 
-  ![image-20201215135603281](https://bitbw.top/public/img/my_gallery/image-20201215135603281.png)
+  ![image-20201215135603281](https://s2.loli.net/2023/01/13/VsMhYJXcne8a2vd.png)
 
 ## 注意事项
 
@@ -52,7 +52,7 @@ canvas_ribbon 和 tree 需要配合在 CDN 中添加 git 默认不上传 lib 下
 
 ## 关于报错
 
-![image-20200725160508488](https://bitbw.top/public/img/my_gallery/image-20200725160508488.png)
+![image-20200725160508488](https://s2.loli.net/2023/01/13/TKmqzHNUjtB581A.png)
 
 没有任何提示 哪个文件，挨个改动回退试试，原来是因为`_config.yml`这里直接写中文是不行的，中文需要引号包裹
 

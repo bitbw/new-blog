@@ -24,11 +24,11 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-gi
 
 - 进入控制台->进入 DNS 云解析->域名解析->解析设置
 
-![image-20210426174435458](https://bitbw.top/public/img/my_gallery/image-20210426174435458.png)
+![image-20210426174435458](https://s2.loli.net/2023/01/13/i43MTJg7C5kI2Sr.png)
 
 - 首次设置点击添加记录
 
-![image-20210426174712072](https://bitbw.top/public/img/my_gallery/image-20210426174712072.png)
+![image-20210426174712072](https://s2.loli.net/2023/01/13/CvFOmTckNEeft8g.png)
 
 - 记录类型：选择 CNAME
 - 主机记录：自己设置一个二级域名，我给我的博客用，所以以 blog 开头

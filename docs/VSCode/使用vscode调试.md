@@ -20,15 +20,15 @@ hash: bd5ae14f896304f9fc1a8c969ee65b00a913591a45e68e6377b1efc21af005ce
 - 选择 nodejs 作为调试工具
 - 开始调试
 
-![image-20210309103224511](https://bitbw.top/public/img/my_gallery/image-20210309103224511.png)
+![image-20210309103224511](https://s2.loli.net/2023/01/13/aPTpzhvdbIjl9mU.png)
 
 如果只调试 js 代码的话，选择 nodejs 即可
 
-![image-20210309103344902](https://bitbw.top/public/img/my_gallery/image-20210309103344902.png)
+![image-20210309103344902](https://s2.loli.net/2023/01/13/9idBpr5efJH7MNY.png)
 
 ### 调试界面
 
-![image-20210309103733550](https://bitbw.top/public/img/my_gallery/image-20210309103733550.png)
+![image-20210309103733550](https://s2.loli.net/2023/01/13/bkAqIP4lVm8W9JK.png)
 
 ### 总结
 
@@ -106,4 +106,4 @@ hash: bd5ae14f896304f9fc1a8c969ee65b00a913591a45e68e6377b1efc21af005ce
 
 否则点击运行启动调试则只能调试当天打开的 tab 标签页
 
-![image-20210723134611394](https://bitbw.top/public/img/my_gallery/vscode%E8%B0%83%E8%AF%95%E6%B3%A8%E6%84%8F01.png)
+![image-20210723134611394](https://s2.loli.net/2023/01/13/cWJlO8KUPwpND62.png)

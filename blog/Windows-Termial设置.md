@@ -333,11 +333,11 @@ https://github.com/microsoft/terminal/issues/9806
 
 powershell.exe 中的普通空格
 
-![image-20210414173814189](https://bitbw.top/public/img/my_gallery/image-20210414173814189.png)
+![image-20210414173814189](https://s2.loli.net/2023/01/13/LHVBQzJpCZ4GMbA.png)
 
 在 Windows terminal 中空格变成 
 
-![image-20210414172703793](https://bitbw.top/public/img/my_gallery/image-20210414172703793.png)
+![image-20210414172703793](https://s2.loli.net/2023/01/13/GIuNo2JRLhYcnTV.png)
 
 ### 解决
 

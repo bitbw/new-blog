@@ -29,7 +29,7 @@ http://www.wepe.com.cn/download.html
 
 ### 各类型主机启动方式快捷键
 
-![微PE工具箱bootice引导修复如何用？Windows系统引导修复教程](https://bitbw.top/public/img/my_gallery/%E7%94%B5%E8%84%91%E5%93%81%E7%89%8C%E7%9A%84%E5%BC%80%E6%9C%BA%E7%83%AD%E9%94%AE1-200P31H100463.jpg)
+![微PE工具箱bootice引导修复如何用？Windows系统引导修复教程](https://s2.loli.net/2023/01/13/jOugZeIKtq1M9aS.jpg)
 
 ### 修改环境变量并立即生效
 

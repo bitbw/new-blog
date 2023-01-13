@@ -289,11 +289,11 @@ function install(gyp, argv, callback) {
 
 ### 下载二进制包
 
-![img](./v2-42de3994e7c42468d24506ef1dbdbe49_720w-1607839552207.jpg)
+![img](https://s2.loli.net/2023/01/13/Yk5ATmJ8gqUBW7C.jpg)
 
 根据流程，接下来我们进一步检查`versioning.js`文件，找到其中的`evaluate`函数，分析最后的`hosted_tarball`路径：
 
-![img](./v2-1e4a760a3783229810e2a437e1330f37_720w-1607839554321.png)
+![img](https://s2.loli.net/2023/01/13/2VZCc7AXa98glGH.png)
 
 `hosted_tarball`路径主要分为两个部分：1、`hosted_path`；2、`package_name`。
 
@@ -301,17 +301,17 @@ function install(gyp, argv, callback) {
 
 经过源码分析来源路径为：
 
-![img](./v2-9e93a984b0f0aeac5d8154f0aa1b387c_720w-1607839785926.jpg)
+![img](https://s2.loli.net/2023/01/13/uHSz4wqs8nXZDWo.jpg)
 
 我们自底向上分析。
 
 `host`变量取决于从环境变量中检查名称为`'npm_config_' + opts.module_name + '_binary_host_mirror'`的环境变量。如果不存在，则使用`package_json.binary.host`。正常使用的时候，我们并不会设定环境变量，所以这里就进入`package_json.binary`进行获取。这个`package_json`是`evaluate`函数被调用时候传入的，在`node-pre-gyp/install.js`中能够看到：
 
-![img](./v2-2f28af0a80578001c17e86077832bc52_720w-1607839556588.jpg)
+![img](https://s2.loli.net/2023/01/13/dh3M82mfepnRugG.jpg)
 
 一开始分析的时候，看到这里，本人以为`package_json`就是`node-pre-gyp/package.json`，于是本人去检查该`json`发现很奇怪，并没有 binary 属性，更别提 host 了。一番思考才明白，`node-pre-gyp install`的运行时调用者是谁呀？不是应该是`sqlite3`吗？所以这个地方的`require('./package.json')`实际上是指代的是`sqlite3/package.json`。查看`sqlite3/package.json`，果然发现了对应的元素：
 
-![img](./v2-9123803894e4e7ba0df2b7eebc3be8f9_720w-1607839558202.jpg)
+![img](https://s2.loli.net/2023/01/13/gqmLCbao2Uj4JpV.jpg)
 
 在`binary`属性中，我们还能看到`remote_path`也在其中。
 
@@ -325,7 +325,7 @@ function install(gyp, argv, callback) {
 
 其实，对于`hosted_path`的分析，我们也容易分析`package_name`了。
 
-![img](./v2-66d92db546da24a98f6459e09d28611a_720w-1607839560356.jpg)
+![img](https://s2.loli.net/2023/01/13/NfqgC7YLAeOsxX6.jpg)
 
 自底向上分析，来自于`sqlite3/package.json`中`binary`属性中的`package_name`，内容见上图分析`host`。
 
@@ -349,25 +349,25 @@ function do_build(gyp,argv,callback) {
 
 代码中，`gyp`由调用 install 的时候，传入：
 
-![img](./v2-62190c9f9976e3b3a7d7633d33129e85_720w-1607839562977.jpg)
+![img](https://s2.loli.net/2023/01/13/stwj698ErXG7ihz.jpg)
 
 那么我们又将回到调用 install 的地方。实际上，gyp 就是 node-pre-gyp.js 导出的模块：
 
-![img](./v2-e940f9f30e0b68edeb98aa34709263e0_720w-1607839564901.jpg)
+![img](https://s2.loli.net/2023/01/13/rL5dJga8cNhXeOo.jpg)
 
 也就是说在`do_build`中进行操作就是，放置了一个`build`任务在队列中。所以我们按照先前的分析，直接去看`build.js`
 
-![img](./v2-c60cc43b95c212ee80dff2bb461597a2_720w-1607839566493.jpg)
+![img](https://s2.loli.net/2023/01/13/8oBkLW2zPi7ONMR.jpg)
 
 看源码调用了当前模块中的`do_build`，且其中最核心的就是`compile`模块：
 
-![img](./v2-2f5857952a2e181a620ca9183fd5e76d_720w-1607839567958.jpg)
+![img](https://s2.loli.net/2023/01/13/tsIqwg1Cr9DhEVO.jpg)
 
 ### util/compile.js
 
 进入 compile 模块，直接找到对应的`run_gyp`函数，代码很短，不难看出进行构建调用了`node-gyp`
 
-![img](./v2-97c9d95fdb3ea2d7c9e55a7311377fc3_720w-1607839569753.jpg)
+![img](https://s2.loli.net/2023/01/13/Krbk6hS4AI2yTaZ.jpg)
 
 上述代码，会先考略`node-webkit`构建。但是我们核心的还是使用`node-gyp`，所以 else 中，会进行`node-gyp`的工具的检查工作。最后调用命令行执行`node-gyp`。于是，node 原生模块的安装工作，进入了新的阶段：`node-gyp`。
 
@@ -385,7 +385,7 @@ function do_build(gyp,argv,callback) {
 
 我们进入该`js`进行分析
 
-![img](./v2-8b31e792c069648f4518bd2bf4de384c_720w-1607839571435.jpg)
+![img](https://s2.loli.net/2023/01/13/Phw1akV3t7JMyTf.jpg)
 
 实际上，`node-gyp`这段的命令行代码，和`node-pre-gyp`非常相似！所以我们也不去深入分析调用命令行了。直接在 lib 文件夹下面的`build.js`。在该`js`中，核心的方法为：
 
@@ -427,6 +427,6 @@ function build (gyp, argv, callback) {
 
 不得不说，`build`写的真心不错，看起来很舒服。这里为了方便读者快速阅读，我整理这些函数的调用图：
 
-![img](./v2-bf94b9960c86eaf29b542f860b3d4ab1_720w-1607839573628.jpg)
+![img](https://s2.loli.net/2023/01/13/Q7kGfr1pqOE3KNL.jpg)
 
 整个调用流程图个人认为足够进行安装的时候的一场分析了。至于每个内部函数的功能，有空继续更新本文吧。

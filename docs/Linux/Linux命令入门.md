@@ -731,7 +731,7 @@ $ ping 127.0.0.1
 
 在 Linux 中 SSH 是 **非常常用** 的工具，通过 **SSH 客户端** 我们可以连接到运行了 **SSH 服务器** 的远程机器上
 
-![001_SSH示意图](https://bitbw.top/public/img/my_gallery/001_SSH示意图.png)
+![001_SSH示意图](https://s2.loli.net/2023/01/13/KFUckOH5D3pXgfB.png)
 
 - **SSH 客户端**是一种使用 `Secure Shell（SSH）` 协议连接到远程计算机的软件程序
 - `SSH` 是目前较可靠，**专为远程登录会话和其他网络服务** 提供安全性的协议
@@ -799,7 +799,7 @@ ssh [-p port] user@remote
 - scp 就是 `secure copy`，是一个在 Linux 下用来进行 **远程拷贝文件** 的命令
 - 它的**地址格式与 ssh 基本相同**，**需要注意的是**，在指定端口时用的是大写的 `-P` 而不是小写的
 
-![002_SCP示意图](https://bitbw.top/public/img/my_gallery/002_SCP示意图.png)
+![002_SCP示意图](https://s2.loli.net/2023/01/13/N9hLRuvrtY8Aq6o.png)
 
 ```bash
 # 把本地当前目录下的 01.py 文件 复制到 远程 家目录下的 Desktop/01.py
@@ -850,7 +850,7 @@ scp -r user@remote:Desktop demo
 
 ##### 示意图
 
-![001_组示意图](https://bitbw.top/public/img/my_gallery/003_SSH%20%E5%85%8D%E5%AF%86%E7%A0%81%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
+![001_组示意图](https://s2.loli.net/2023/01/13/UMSv65RZhq4reOA.png)
 
 > 非对称加密算法
 >
@@ -900,7 +900,7 @@ Host mac
 
 - 为了方便用户管理，提出了 **组** 的概念，如下图所示
 
-![001_组示意图](https://bitbw.top/public/img/my_gallery/001_组示意图.png)
+![001_组示意图](https://s2.loli.net/2023/01/13/uJEghs2nTxtobVP.png)
 
 - 在实际应用中，可以预先针对 **组** 设置好权限，然后 **将不同的用户添加到对应的组中**，从而**不用依次为每一个用户设置权限**
 
@@ -916,7 +916,7 @@ Host mac
   - **时间**
   - **名称**
 
-![002_权限示意图](https://bitbw.top/public/img/my_gallery/002_权限示意图.png)
+![002_权限示意图](https://s2.loli.net/2023/01/13/45PrSNbYgAM9zBW.png)
 
 ### 1.4 `chmod` 简单使用（重要）
 
@@ -959,7 +959,7 @@ chmod +/-rwx 文件名|目录名
 > - 组信息保存在 `/etc/group` 文件中
 > - `/etc` 目录是专门用来保存 **系统配置信息** 的目录
 
-![001_组示意图](https://bitbw.top/public/img/my_gallery/001_组示意图.png)
+![001_组示意图](https://s2.loli.net/2023/01/13/uJEghs2nTxtobVP.png)
 
 - 在实际应用中，可以预先针对 **组** 设置好权限，然后 **将不同的用户添加到对应的组中**，从而**不用依次为每一个用户设置权限**
 
@@ -1076,7 +1076,7 @@ which useradd
 - `su` 不接用户名，可以切换到 `root`，但是不推荐使用，因为不安全
 - `exit` 示意图如下：
 
-![003_su和exit示意图](https://bitbw.top/public/img/my_gallery/003_su和exit示意图.png)
+![003_su和exit示意图](https://s2.loli.net/2023/01/13/t2wJqWcDAbBmid5.png)
 
 ## 04. 修改文件权限
 
@@ -1106,7 +1106,7 @@ chmod -R 755 文件名|目录名
 chmod +/-rwx 文件名|目录名
 ```
 
-![004_文件权限示意图](https://bitbw.top/public/img/my_gallery/004_文件权限示意图.png)
+![004_文件权限示意图](https://s2.loli.net/2023/01/13/bLp4GtvaHqzdsyM.png)
 
 - 常见数字组合有（`u`表示用户／`g`表示组／`o`表示其他）：
   - `777` ===> `u=rwx,g=rwx,o=rwx`
@@ -1262,7 +1262,7 @@ find -name "1*"
 
 #### 文件软硬链接的示意图
 
-![001_文件软硬链接示意图](https://bitbw.top/public/img/my_gallery/001_文件软硬链接示意图.png)
+![001_文件软硬链接示意图](https://s2.loli.net/2023/01/13/X4kKtg6x2HvqZ93.png)
 
 > 在 Linux 中，**文件名** 和 **文件的数据** 是分开存储的
 
@@ -1394,9 +1394,9 @@ $ sudo apt install htop
 
 > 所谓镜像源，就是**所有服务器的内容是相同的（镜像）**，但是根据所在位置不同，国内服务器通常速度会更快一些！
 
-![003_镜像服务器示意图](https://bitbw.top/public/img/my_gallery/003_镜像服务器示意图.png)
+![003_镜像服务器示意图](https://s2.loli.net/2023/01/13/po3CXYNJuvBVetL.png)
 
-![001_ubuntu设置软件源](https://bitbw.top/public/img/my_gallery/001_ubuntu设置软件源.png)
+![001_ubuntu设置软件源](https://s2.loli.net/2023/01/13/tvAZPcumiKsSwer.png)
 
 # `Linux` 主要目录速查表
 

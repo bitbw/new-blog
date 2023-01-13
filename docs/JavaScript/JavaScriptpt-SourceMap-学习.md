@@ -137,7 +137,7 @@ source map
 
 VLQ编码是变长的。如果（整）数值在-15到+15之间（含两个端点），用一个字符表示；超出这个范围，就需要用多个字符表示。它规定，每个字符使用6个两进制位，正好可以借用[Base 64](https://en.wikipedia.org/wiki/Base_64)编码的字符表。
 
-![img](https://bitbw.top/public/img/my_gallery/20220318142001.png)
+![img](https://s2.loli.net/2023/01/13/KF86cf5qdJxjC3Q.png)
 
 在这6个位中，左边的第一位（最高位）表示是否"连续"（continuation）。如果是1，代表这６个位后面的6个位也属于同一个数；如果是0，表示该数值到这6个位结束。
 

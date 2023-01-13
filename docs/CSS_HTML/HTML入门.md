@@ -9,7 +9,7 @@ cnblogs:
 hash: 27a2c4add02dac43f76c3316ead3150ee0c226603e38241dcc7732ba100c2b07
 ---
 
-![下载](https://bitbw.top/public/img/my_gallery/下载.jpg)
+![下载](https://s2.loli.net/2023/01/13/K38h2unAm9IdsgZ.jpg)
 
 ## 开发工具
 
@@ -63,7 +63,7 @@ hash: 27a2c4add02dac43f76c3316ead3150ee0c226603e38241dcc7732ba100c2b07
 
 ## sublime 一些常用快捷键
 
-![1574421790594](https://bitbw.top/public/img/my_gallery/1574421790594.png)
+![1574421790594](https://s2.loli.net/2023/01/13/vLUgBhE4kAQZNyX.png)
 
 ## 字符集
 
@@ -137,7 +137,7 @@ vk control control 1.使用相应的 id 名标注跳转目标的位置。
 
 ## 特殊字符标签 （理解）
 
-![1574422894085](https://bitbw.top/public/img/my_gallery/1574422894085.png)
+![1574422894085](https://s2.loli.net/2023/01/13/Z3CqnQtd5E7joUm.png)
 
 ## 路径(重点、难点)
 
