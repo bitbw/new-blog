@@ -29,6 +29,6 @@ Error: libcrypto.so.1.1: cannot open shared object file: No such file or directo
 openssl version
 ```
 
-[openssl version](https://bitbw.top/public/img/my_gallery/c267a3e017f456c23e61e0d7d7278a2.png)
+![openssl version](https://s2.loli.net/2023/01/15/c6LvGjzCw4BSbDA.png)
 
 果然`openssl`版本不对需要升级一下`openssl`版本 ,[升级的方法](https://blog.csdn.net/londa/article/details/125861556)(有点麻烦建议使用 docker 解决)

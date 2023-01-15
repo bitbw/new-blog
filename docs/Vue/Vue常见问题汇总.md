@@ -321,7 +321,7 @@ vue3 中去除了 $listeners 统一在 $attrs 中
 
 ### Vetur 在vue文件中 script 不高亮
 
-[不高亮](https://bitbw.top/public/img/my_gallery/Snipaste_2022-10-20_11-06-39.png)
+![不高亮](https://s2.loli.net/2023/01/15/qzwGM4jKQZfoXVI.png)
 
 在 vue 文件中不高量
 
@@ -329,4 +329,4 @@ vue3 中去除了 $listeners 统一在 $attrs 中
 
 `</template>`标签位置不对
 
-[解决](https://bitbw.top/public/img/my_gallery/Snipaste_2022-10-20_11-11-08.png)
+![解决](https://s2.loli.net/2023/01/15/IMfLWrs5Eubo7Tj.png)

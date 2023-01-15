@@ -417,7 +417,7 @@ Vercel由 Next.js 的创建者制作，并为 Next.js 提供一流的支持。�
 - 修改并上传预览分支
 - 回到 github 仓库 会看到提示添加 Pull requests 根据提示添加 Pull requests
 - 进到新创建的 Pull requests 中可以查看预览分支 部署好的页面
-[Pull requests](https://bitbw.top/public/img/my_gallery/20220818112329.png)
+![Pull requests](https://s2.loli.net/2023/01/15/w4gZXHt8c2isbzD.png)
 - 预览分支没问题就可以合并到主分支了
 
 ### 自定义域名
