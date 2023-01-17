@@ -11,7 +11,7 @@ hash: d6cc4f8a82263b7103c5eb9183c639501914445b5999e4d71c435043fb4d7b10
 
 ## WebSocket
 
-![img](https://bitbw.top/public/img/my_gallery/bg2017051501.png)
+![img](https://s2.loli.net/2023/01/13/X82zesEkcNyIwOo.png)
 
 - WebSocket 是一种数据通信协议，类似于我们常见的 http
 - 既然有 http，为啥还要 WebSocket
@@ -47,7 +47,7 @@ WebSocket 打电话：
 
 - 双向对话
 
-![img](https://bitbw.top/public/img/my_gallery/bg2017051502.png)
+![img](https://s2.loli.net/2023/01/13/rPFkdWY5Xjhl7QN.png)
 
 > HTTP 和 WebSocket 通信模型
 
@@ -71,7 +71,7 @@ WebSocket 打电话：
 ws://example.com:80/some/path
 ```
 
-![img](https://bitbw.top/public/img/my_gallery/bg2017051503.jpg)
+![img](https://s2.loli.net/2023/01/13/QBDFET1UtsfIcAh.jpg)
 
 ## 使用原生 WebSocket（了解）
 
@@ -133,7 +133,7 @@ ws://example.com:80/some/path
 
 怎么查看 WebSocket 请求日志：
 
-![1569575005360](https://bitbw.top/public/img/my_gallery/1569575005360.png)
+![1569575005360](https://s2.loli.net/2023/01/13/srmpELeGlDF9OzH.png)
 
 > 朝上的绿色箭头是发出去的消息
 >

@@ -15,7 +15,7 @@ hash: 5059eaaa2283b97dcb78382bb12533f23e8faf22664211439f74900890fec43a
 
 首选项 -> 设置 ->文本编辑器 ->文件
 
-![image-20201224095242258](https://bitbw.top/public/img/my_gallery/image-20201224095242258.png)
+![image-20201224095242258](https://s2.loli.net/2023/01/13/2aWGY8pykTFzhsA.png)
 
 修改保存即可 ，语言要写全名 像`javascript `不要写成`js`
 
@@ -23,7 +23,7 @@ hash: 5059eaaa2283b97dcb78382bb12533f23e8faf22664211439f74900890fec43a
 
 ## setting 修改
 
-![image-20201224095505868](https://bitbw.top/public/img/my_gallery/image-20201224095505868.png)
+![image-20201224095505868](https://s2.loli.net/2023/01/13/ZhSr1I4E72PyqVp.png)
 
 json 中添加
 

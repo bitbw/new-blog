@@ -28,6 +28,6 @@ found in
 
 ### `JSON.parse()`的使用
 
-![搜狗截图20191201171855](https://bitbw.top/public/img/my_gallery/搜狗截图20191201171855.jpg)
+![搜狗截图20191201171855](https://s2.loli.net/2023/01/13/2stKuc71689jizn.jpg)
 
 > 注意：**`JSON.parse(null)` 是返回 null 其他除了 string 类型的数据都会报错**

@@ -1,6 +1,8 @@
 ---
-title: picgo + typroa + github (gitee) 实现自动上传图床
+title: picgo + typroa + smms|github|gitee 实现自动上传图床
 date: 2021-02-06T16:18:02.000Z
+authors:
+  - bowen
 tags:
   - picgo
   - typora
@@ -14,9 +16,9 @@ hash: 28f912eca09d2300025c93fb8637593c0456bb1189da8c52712936bb945848ab
 
 ## typora 结合 PicGo 设置 github 图床
 
-详细教程：https://blog.csdn.net/beichuchuanyue/article/details/105493948
+详细教程：<https://blog.csdn.net/beichuchuanyue/article/details/105493948>
 
-> 最近一直在用 ubuntu 所以直接使用 picgo-core （命令行） 实现上传图片
+> 最近一直在用 ubuntu 所以令行） 实现直接使用 picgo-core （命上传图片
 
 ## picgo-core 配置文件
 
@@ -67,13 +69,13 @@ hash: 28f912eca09d2300025c93fb8637593c0456bb1189da8c52712936bb945848ab
 
 > 注意上传同名图片会导致失败
 
-常见报错：https://blog.csdn.net/qq754772661/article/details/111385955
+常见报错：<https://blog.csdn.net/qq754772661/article/details/111385955>
 
 ##
 
 ## PicGo 设置 gitee（码云）图床
 
-详细教程：https://blog.csdn.net/qq_39564555/article/details/105080209
+[详细教程](https://blog.csdn.net/qq_39564555/article/details/105080209)
 
 ```json
 // 具体配置
@@ -86,3 +88,11 @@ hash: 28f912eca09d2300025c93fb8637593c0456bb1189da8c52712936bb945848ab
       "token": "asdfasdfdfasdfasdfsadfasd"  // 设置-》私人令牌-》生产新令牌
     }
 ```
+
+## typora 结合 PicGo 设置 smms 图床
+
+- smms [注册账号](https://sm.ms/register)
+- smms [Dashboard](https://sm.ms/home/) 找到 API Token  获取 token
+- npm 全局安装 [picgo](https://picgo.github.io/PicGo-Core-Doc/zh/guide/getting-started.html#%E5%85%A8%E5%B1%80%E5%AE%89%E8%A3%85)
+- 修改 picgo [配置文件](https://picgo.github.io/PicGo-Core-Doc/zh/guide/config.html#%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90)
+- 修改 typora 设置偏好 图像 上传服务设定  修改为 自定义命令 （custom command）  命令 ：`picgo upload`

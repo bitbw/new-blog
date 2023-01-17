@@ -1,6 +1,8 @@
 ---
 title: axios常见问题汇总
 date: 2020-04-12T17:08:55.000Z
+authors:
+  - bowen
 tags:
   - axios
 categories: 网络应用

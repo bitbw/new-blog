@@ -1,6 +1,8 @@
 ---
 title: Data URI详细介绍
 date: 2020-12-31T09:09:56.000Z
+authors:
+  - bowen
 tags:
   - HTML
   - js

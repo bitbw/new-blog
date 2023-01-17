@@ -1,6 +1,8 @@
 ---
 title: 使用xlsx.js 实现隐藏工作簿
 date: 2020-12-13T17:15:41.000Z
+authors:
+  - bowen
 tags:
   - js
   - XLSX

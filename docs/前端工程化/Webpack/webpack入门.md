@@ -24,7 +24,7 @@ hash: 542430f107fa4cd0123f115fddd0b6371096e8e6c20f19b91663622d00571058
 
 ### webpack 的打包过程
 
-![](https://bitbw.top/public/img/my_gallery/web工作流程.png)
+![](https://s2.loli.net/2023/01/13/oY3MrNS8a45xIHZ.png)
 
 ### webpack 初体验
 

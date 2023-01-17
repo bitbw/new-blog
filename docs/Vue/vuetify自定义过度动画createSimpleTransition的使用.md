@@ -18,7 +18,7 @@ hash: 7a612beb43d16c996adeb6d698055aeb3824af5e6b8a79a8a1008f8587851603
 
 <!-- more -->
 
-![vuetfiy抽屉效果](https://bitbw.top/public/img/my_gallery/vuetfiy抽屉效果.gif)
+![vuetfiy抽屉效果](https://s2.loli.net/2023/01/13/FaW3qbEwS4JRtMK.gif)
 
 ```vue
 <template>

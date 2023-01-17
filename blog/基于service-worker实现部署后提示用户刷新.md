@@ -1,6 +1,8 @@
 ---
 title: 基于service-worker实现部署后提示用户刷新
 date: 2022-04-28T10:22:38.000Z
+authors:
+  - bowen
 tags:
   - service-worker
 categories: js

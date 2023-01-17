@@ -1,6 +1,8 @@
 ---
 title: switch 多个case的用法
 date: 2018-12-15T16:07:07.000Z
+authors:
+  - bowen
 tags:
   - js
 categories: js

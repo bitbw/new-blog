@@ -34,4 +34,4 @@ nginx.conf
 去除 nginx.conf 中`application/octet-stream` 二进制流类型的压缩，发现`update-downloaded`事件正常了
 
 gzip压缩后其实通过浏览器下载这个 exe 文件时也不显示进度, 估计是压缩后是直接下载 .gz 文件（下载好以后直接写入文件）， 而未压缩使用流式下载（边下边写入文件）
-![image](https://bitbw.top/public/img/my_gallery/1659084148258.jpg)
+![image](https://s2.loli.net/2023/01/13/I8RacKUt547jNmX.png)

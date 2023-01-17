@@ -1,6 +1,8 @@
 ---
 title: Typora使用技巧
 date: 2021-04-25T16:36:24.000Z
+authors:
+  - bowen
 tags:
   - typora
   - 工具使用
@@ -40,6 +42,6 @@ C:\app\Typora\bin
 （1）修改.md 的默认值
 （2）添加 ShellNew，添加 NullFile
 
-![image-20210427142049929](https://bitbw.top/public/img/my_gallery/image-20210427142049929.png)
+![image-20210427142049929](https://s2.loli.net/2023/01/13/rI2uCYZRNpXew89.png)
 
 > 原文：https://blog.csdn.net/m0_46588308/article/details/105919561

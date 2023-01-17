@@ -1,6 +1,8 @@
 ---
 title: Docusaurus2搭建博客及入门使用
 date: 2022-12-19T09:09:56.000Z
+authors:
+  - bowen
 tags:
   - Docusaurus2
 categories: Docusaurus2

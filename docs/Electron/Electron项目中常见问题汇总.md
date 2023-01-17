@@ -17,7 +17,7 @@ hash: 184f388a51e8637a17fa3591316a0400ec36e841c682ef907a287eb5ee3b56a5
 > Windows 环境依赖需要 Visual Studio 和 python
 > Visual Studio 和 python 在安装 node 时会提示安装 window 对应的编译环境勾选安装即可， 或使用脚本安装编译环境，也可以使用 npm 全局安装 [windows-build-tools](https://github.com/felixrieseberg/windows-build-tools)
 
-![image-20220113102005114](https://bitbw.top/public/img/my_gallery/20220113140323.png)
+![image-20220113102005114](https://s2.loli.net/2023/01/13/BWqw2ZNusPVrgzQ.png)
 
 ### MacOS
 
@@ -194,7 +194,7 @@ app.on("ready", async () => {
 解决：
 在 vue-devtools/chrome/manifest.json 删掉相应的字段
 
-![img](https://bitbw.top/public/img/my_gallery/electron20201111130214278.png)
+![img](https://s2.loli.net/2023/01/13/ajV1zWpGqlOHym2.png)
 
 ### 问题
 

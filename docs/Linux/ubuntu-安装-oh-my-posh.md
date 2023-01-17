@@ -92,7 +92,7 @@ cd Meslo
  sudo fc-cache -f -v
 ```
 
-![image-01](https://bitbw.top/public/img/my_gallery/image-20210415135918711.png)
+![image-01](https://s2.loli.net/2023/01/13/htJYV5W87TdojKA.png)
 
 ## 在 vscode 中字体设置
 

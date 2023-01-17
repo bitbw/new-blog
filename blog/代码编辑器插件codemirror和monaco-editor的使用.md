@@ -1,6 +1,8 @@
 ---
 title: 代码编辑器插件 codemirror 和 monaco-editor 的使用
 date: 2022-09-06T13:45:56.000Z
+authors:
+  - bowen
 tags:
   - monaco-editor
   - codemirror

@@ -1,6 +1,8 @@
 ---
 title: XLSX.js的使用
 date: 2020-07-30T09:20:05.000Z
+authors:
+  - bowen
 tags:
   - XLSX
   - js

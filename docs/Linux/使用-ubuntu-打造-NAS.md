@@ -75,7 +75,7 @@ vim /etc/ssh/sshd_config
 
 （2）将  第34行左右的  PermitRootLogin 设置为 yes  第58行左右的 PasswordAuthentication 设置为yes，如下图
 
-![image-20220527213951303](https://bitbw.top/public/img/my_gallery/image-20220527213951303.png)
+![image-20220527213951303](https://s2.loli.net/2023/01/13/jStr2PTyRCYdoDV.png)
 
 （3）重启sshd服务
 

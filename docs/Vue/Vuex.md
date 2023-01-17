@@ -15,7 +15,7 @@ hash: 24d23ff624b9011fea00f33e73b0fbcbc01f0d61808b851f90fd2afb30ed65a4
 
 在现代 Web 开发复杂多变的需求驱动之下，组件化开发已然成为了事实上的标准。
 
-![components](https://bitbw.top/public/img/my_gallery/components.png)
+![components](https://s2.loli.net/2023/01/13/BOQ6bZWaG47zRJx.png)
 
 组件化开发为我们带来了：
 
@@ -53,14 +53,14 @@ new Vue({
 
 以下是一个表示“单向数据流”理念的简单示意：
 
-![flow](https://bitbw.top/public/img/my_gallery/flow.png)
+![flow](https://s2.loli.net/2023/01/13/gARbCsEZOemw5N2.png)
 
 ### 1.3. 组件通信
 
 然而大多数场景下的组件都并不是独立存在的，而是相互协作共同构成了一个复杂的业务功能。在 Vue
 中为不同的组件关系提供了不同的通信规则。
 
-![1575007644430](https://bitbw.top/public/img/my_gallery/1575007644430.png)
+![1575007644430](https://s2.loli.net/2023/01/13/IDcVp6buoewmSYk.png)
 
 - 父子关系
 - 非父子
@@ -160,7 +160,7 @@ bus.$emit("自定义事件名称", 数据);
 因此，我们为什么不把组件的共享状态抽取出来，以一个全局单例模式管理呢？在这种模式下，我们的
 组件树构成了一个巨大的“视图”，不管在树的哪个位置，任何组件都能获取状态或者触发行为！
 
-![1575009217911](https://bitbw.top/public/img/my_gallery/1575009217911.png)
+![1575009217911](https://s2.loli.net/2023/01/13/7TztlxJAgCrqeRd.png)
 
 通过定义和隔离状态管理中的各种概念并通过强制规则维持视图和状态间的独立性，我们的代码将会变
 得更结构化且易维护。
@@ -201,7 +201,7 @@ bus.$emit("自定义事件名称", 数据);
 
 实现一个类似于购物车的组件案例
 
-![1575009753493](https://bitbw.top/public/img/my_gallery/1575009753493.png)
+![1575009753493](https://s2.loli.net/2023/01/13/ecGZq52ns3FJKMg.png)
 
 1、使用 VueCLI 创建一个练习项目：
 
@@ -317,7 +317,7 @@ computed: {
 
 也可以通过调试工具查看 Vuex 容器中的数据：
 
-![1575011046982](https://bitbw.top/public/img/my_gallery/1575011046982.png)
+![1575011046982](https://s2.loli.net/2023/01/13/lAVDnONbd62Uwrs.png)
 
 ## 7. Mutation
 
@@ -496,7 +496,7 @@ Actions 和 Mutation 一样，也支持自定义传参：
 
 ### 10.1. 同步操作
 
-![vuex同步](https://bitbw.top/public/img/my_gallery/vuex同步.png)
+![vuex同步](https://s2.loli.net/2023/01/13/dJQOzKUst1PIv3Y.png)
 
 - 组件通过 Commit 调用 Mutations 中的方法
 - Mutations 执行内部逻辑修改 State 数据 ，同时在调试工具 Devtools 上显示对应变化内容
@@ -504,7 +504,7 @@ Actions 和 Mutation 一样，也支持自定义传参：
 
 ### 10.2 异步操作
 
-![](https://bitbw.top/public/img/my_gallery/vuex.png)
+![](https://s2.loli.net/2023/01/13/iUD4FK29Hsdr3Pg.png)
 
 - 组件通过 Dispatch 调用 Actions 中的方法
 - Actions 中的方法通过 Commit 调用 Mutations 中的方法

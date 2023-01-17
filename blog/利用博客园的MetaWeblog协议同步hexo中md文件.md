@@ -1,6 +1,8 @@
 ---
 title: 利用博客园的MetaWeblog协议+nodejs同步自建博客中的md文件
 date: 2023-01-11T14:44:08.000Z
+authors:
+  - bowen
 tags:
   - hexo
   - docusaurus

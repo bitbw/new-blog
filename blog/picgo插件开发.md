@@ -1,6 +1,8 @@
 ---
 title: picgo插件开发
 date: 2022-05-11T16:22:28.000Z
+authors:
+  - bowen
 tags:
   - picgo
   - typora
@@ -138,7 +140,7 @@ npm install ./picgo-plugin-<your-plugin-name>
 
 ## Typora中配置Picgo-Core
 
-![image-20220511163057062](https://bitbw.top/public/img/my_gallery/image-20220511163057062.png)
+![image-20220511163057062](https://s2.loli.net/2023/01/13/3V6YtN98ijakdlf.png)
 
 ## 发布插件
 

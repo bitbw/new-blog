@@ -15,7 +15,7 @@ hash: 96d0a300bd0f1affa9e70732962b0465c4c4b383ee529b7ec30cf95b49da4194
 
 <!-- more -->
 
-![单表格托拽](https://bitbw.top/public/img/my_gallery/单表格托拽.gif)
+![单表格托拽](https://s2.loli.net/2023/01/13/QCatwlebZTIio5K.gif)
 
 js 部分实现
 
@@ -84,7 +84,7 @@ tr.hover-row {
 
 最终实现效果：
 
-![双表格表格托拽](https://bitbw.top/public/img/my_gallery/双表格表格托拽.gif)
+![双表格表格托拽](https://s2.loli.net/2023/01/13/k2CzAY89xWrDvXy.gif)
 
 ```js
 // 初始化拖拽
