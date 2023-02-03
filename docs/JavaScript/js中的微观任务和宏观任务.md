@@ -6,7 +6,7 @@ categories: js
 date: 2020-09-14T10:35:43.000Z
 cnblogs:
   postid: '15392523'
-hash: 4185265c34801cd256b892a7ef6f1f673e4d7aa4a68d5813850ffa2bdd9e1e3b
+hash: a48504482aa823f034592b9f977e1e8de875c3fa7d02eb6c0b51e205ef9692f3
 ---
 
 # js 中的微观任务和宏观任务

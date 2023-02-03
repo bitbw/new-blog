@@ -7,7 +7,7 @@ tags:
 categories: Linux
 cnblogs:
   postid: '15393032'
-hash: deb25fdc9d280ba07f6c78af271876201abc855ecfa8bd20b234858af9b162e9
+hash: 13fec3412af667aa59e72dbb99cd514bfad1db8428d1d80da4c260fcc2eed63d
 ---
 
 # Ubuntu 文件管理软件安装
