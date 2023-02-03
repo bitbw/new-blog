@@ -7,7 +7,7 @@ tags:
 categories: Vue
 cnblogs:
   postid: '15393016'
-hash: 7a612beb43d16c996adeb6d698055aeb3824af5e6b8a79a8a1008f8587851603
+hash: 42c380fa335fa74187e592570297c507269941c9653086b19c1f4414aa969ab3
 ---
 
 > 因为 vuetify 中 dailog 只有上下抽屉的效果，想要左右抽屉效果 于是自己写了一个左右抽屉的组件 其中比较难搞的还是样式 和过渡
