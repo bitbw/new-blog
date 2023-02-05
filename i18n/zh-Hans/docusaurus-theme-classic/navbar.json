@@ -4,7 +4,7 @@
     "description": "The title in the navbar"
   },
   "item.label.Archive": {
-    "message": "归档",
+    "message": "常用博客归档",
     "description": "Navbar item with label Archive"
   },
   "item.label.Blog": {
