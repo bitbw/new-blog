@@ -7,7 +7,7 @@ import styles from "./index.module.css";
 
 import Translate from "@docusaurus/Translate";
 
-const description = "welcome to bitbw";
+const description = "This is bowen's technical personal blog";
 
 function HomepageHeader() {
   return (
@@ -51,9 +51,10 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
+  // const { siteConfig } = useDocusaurusContext();
+  // console.log("siteConfig.title",siteConfig.title)
   return (
-    <Layout title={`${siteConfig.title}`} description={description}>
+    <Layout description={description}>
       <HomepageHeader />
       <main>{/* <HomepageFeatures /> */}</main>
     </Layout>

@@ -10,6 +10,7 @@ cnblogs:
 ---
 
 ## Vue更新数据流程流程
+
 ![示意图](https://s2.loli.net/2023/02/07/FSM7TiVkyYul1jN.png)
 
 1. Compiler 解析模板成虚拟dom ( render 函数 createElement 就是直接生成虚拟dom )
