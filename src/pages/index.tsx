@@ -14,7 +14,7 @@ function HomepageHeader() {
     <div className="hero">
       <div className={styles.welcome_intro}>
         <h1 className={styles.hero_title}>
-          <Link style={{ color: "var(--ifm-color-primary)" }} to="/blog">
+          <Link style={{ color: "var(--ifm-color-primary)" }} to="/docs/intro">
             Welcome to my blog ~
           </Link>
         </h1>
