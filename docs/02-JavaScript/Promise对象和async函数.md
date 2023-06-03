@@ -340,3 +340,22 @@ async created () {
 这几个方法在执行的 Promise 时候，都是并行执行
 
 **注意：如果有先执行完某个 Promise 在执行某个 Promise 的时候不可以这几种方法，需要改串行执行（一个执行完再执行另一个）**
+  
+## async 面试中的问题
+
+async 函数执行时 如果中间没有 await 就是同步执行的代码 ，await 之后的代码 才是异步的
+
+```js
+async function async1() {
+  console.log("async1 start");
+  async3();
+  async2();
+  console.log("async1 end");
+}
+async function async2() {
+  console.log("async2");
+}
+async function async3() {
+  console.log("async3");
+}
+```
