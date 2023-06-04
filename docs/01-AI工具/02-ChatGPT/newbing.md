@@ -3,7 +3,7 @@ title: new bing 新bing的使用
 date: 2023-5-30T18:13:47.000Z
 tags:
   - AI
-  - chatGPT
+  - ChatGPT
   - newBing
 categories: AI
 ---
