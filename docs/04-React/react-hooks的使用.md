@@ -10,9 +10,9 @@ categories: React
 
 ## 组件通信的方式
 
-In React Hooks, there are several ways to achieve component communication:
+在React Hooks中，实现组件通信的方式有以下几种：
 
-1. Using Props: You can pass data from a parent component to a child component using props. The child component can then access and use the data passed through props.
+1. 使用 Props：您可以使用 props 将数据从父组件传递到子组件。然后子组件可以访问和使用通过 props 传递的数据。
 
 ```bash
 // Parent component
@@ -35,7 +35,7 @@ const ChildComponent = ({ data }) => {
 export default ChildComponent;
 ```
 
-1. Using Context: Context allows you to share data across multiple components without having to pass props manually at every level. It is useful for sharing data that is considered global or shared.
+2. 使用 Context：Context 允许您在多个组件之间共享数据，而无需在每个级别手动传递 props。它对于共享被视为全局或共享的数据很有用
 
 ```bash
 // Create a context object
@@ -62,7 +62,7 @@ const ChildComponent = () => {
 };
 ```
 
-1. Using custom hooks: You can create custom hooks to encapsulate logic and share it among multiple components. Custom hooks can be used to create reusable logic for component communication.
+3. 使用自定义挂钩：您可以创建自定义挂钩来封装逻辑并在多个组件之间共享它。自定义挂钩可用于创建组件通信的可重用逻辑ication.
 
 ```bash
 // Custom hook
