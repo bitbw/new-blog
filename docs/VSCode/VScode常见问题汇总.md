@@ -12,6 +12,8 @@ cnblogs:
 ## Remote-SSH 插件
 
 [文章地址](https://blog.csdn.net/WindSunLike/article/details/103292922)
+[解决vscode远程连接报尝试写入的管道不存在，ssh remote， The process tried to write to a nonexistent pipe.](https://zhuanlan.zhihu.com/p/664354803)
+
 
 ### 遇到的问题
 
@@ -24,3 +26,4 @@ cnblogs:
 ### 注意事项
 
 在使用公钥第一次连接到Linux时候，可能会让你输入密码，连接完成后，会在你的用户.ssh目录中中生成一个文件known_hosts，这个目录中还有公钥和私钥id-rsa.pub和id-rsa，然后将公钥上传到服务器上，重新重复上面的复制到.ssh/authorized_keys，并且重新设置权限，再重新尝试连接到Linux，就不需要再输入密码了
+

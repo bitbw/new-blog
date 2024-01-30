@@ -254,3 +254,26 @@ worktree 不允许两个 worktree 使用同一个分支。如果有这个需要�
 - 新建一个分支，使用 git push -u origin HEAD:目标分支， 目标分支再 pull
 
 使用后不使再用的 worktree 删除后 ，运行 git worktree prune 清理
+
+## git 需要将当前分支的某几次 commit 合并 到其他分支
+
+bing 回答
+
+您可以使用 git cherry-pick 命令将当前分支的某几次 commit 合并到其他分支。首先，切换到需要合并的分支，然后使用 git log 命令查找需要合并的 commit 记录，比如 commitID：7fcb3defff。接下来，使用 git cherry-pick 7fcb3defff 命令将该 commit 合并到当前分支。如果需要合并多个 commit，则可以使用 `git cherry-pick <commit1> <commit2>`命令将多个 commit 合并到当前分支123
+[参考](https://www.cnblogs.com/myitnews/p/12363154.html)
+
+### git log 找到某个用户的提交
+
+bing 回答
+
+您可以使用以下命令来查找某个用户的提交：
+
+```
+git log --author="用户名"
+```
+
+这将显示该用户的所有提交记录。如果您想要查找某个时间段内的提交记录，可以使用以下命令：
+
+```
+git log --author="用户名" --since="起始时间" --until="结束时间"
+```
