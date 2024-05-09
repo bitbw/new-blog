@@ -15,7 +15,7 @@ categories: AI
 - [升级plus（充值）](https://chatgpt-plus.github.io/chatgpt-plus/)
 - [升级plus（充值）](https://juejin.cn/post/7217801491189235773)
 - [OpenAI 后台](https://platform.openai.com/usage)
-hou
+  
 ## 注册
 
 根据文档[注册](https://chatgpt-plus.github.io/chatgpt) 即可,但是好像由于 gpt 太火了 ，有好多黄牛倒卖账号，注册也比以前困难了， [获取虚拟手机号](https://sms-activate.org/getNumber) 这个最低充值也变成了2 美元 ， 有的时候验证码接收不到 反复多试几次就好了
