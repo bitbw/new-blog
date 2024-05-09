@@ -23,3 +23,5 @@ categories: AI
 
 11月份开通账号时没想着充值什么的，现在 [depay](https://depay.one/zh-cn/COMING.html) 不让注册了，操蛋了！！！
 回头研究出新方法再说吧 ，想用 gpt-4 可以使用 new bing ，想用 api 新账号送 5美元额度先用着吧
+
+2023年 11 月份的时候发现可以使用 [wildcard](https://wildcard.com.cn/card?cardId=9152) 就是贵点  但是很好用 有免费的海外远程虚拟机 不怕无法充值的问题
