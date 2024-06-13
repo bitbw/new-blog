@@ -44,3 +44,8 @@ child1 设置高度无效
     flex:0 0 100px;
   }
 ```
+
+## position: sticky 不起作用
+** 原因 **
+父元素加了 `overflow-x: hidden` 属性
+参考： https://zhuanlan.zhihu.com/p/107242529
