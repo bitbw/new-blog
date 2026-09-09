@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require("prism-react-renderer");
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -11,8 +12,13 @@ const config = {
   url: "https://blog.bitbw.top",
   baseUrl: "/",
   trailingSlash: true,
+  markdown: {
+    format: "detect",
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
   onBrokenLinks: "warn",
-  onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
@@ -49,8 +55,8 @@ const config = {
           truncateMarker: /<!--\s*(more)\s*-->/,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          readingTime: ({ content, frontMatter, defaultReadingTime }) =>
-            defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
+          readingTime: ({ content, locale, defaultReadingTime }) =>
+            defaultReadingTime({ content, locale, options: { wordsPerMinute: 300 } }),
           editUrl:
             "https://github.com/bitbw/new-blog/tree/preview",
         },

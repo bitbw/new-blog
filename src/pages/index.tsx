@@ -9,7 +9,7 @@ const posts = [
   ["2026.08.31", "Ponytail: less code, fewer assumptions", "/blog/2026/08/31/ponytail/"],
 ];
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   return (
     <Layout title="Bitbw" description="Engineering notes by Bowen Zhang.">
       <main className={styles.home}>
