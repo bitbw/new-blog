@@ -204,3 +204,47 @@ html[data-theme='dark'] article header small {
 html[data-theme='dark'] .theme-blog-post-page .pagination-nav__link {
   color: #e8e8e3;
 }
+
+/* Keep every interactive document element on the orange editorial accent. */
+html[data-theme='dark'] {
+  --ifm-color-primary: #ff6b2c;
+  --ifm-color-primary-dark: #e85b20;
+  --ifm-color-primary-darker: #d94f18;
+  --ifm-color-primary-darkest: #b83f10;
+  --ifm-color-primary-light: #ff8b5c;
+  --ifm-color-primary-lighter: #ff9f78;
+  --ifm-color-primary-lightest: #ffbda0;
+  --ifm-link-color: #ff8b5c;
+  --ifm-link-hover-color: #ffb08f;
+}
+
+html[data-theme='dark'] .theme-doc-markdown a,
+html[data-theme='dark'] .theme-doc-toc-desktop a,
+html[data-theme='dark'] .theme-doc-breadcrumbs a,
+html[data-theme='dark'] .theme-doc-footer a,
+html[data-theme='dark'] .theme-blog-post-page .pagination-nav__link,
+html[data-theme='dark'] .theme-blog-post-page .theme-blog-post-tags a,
+html[data-theme='dark'] .theme-blog-post-page .theme-blog-post-tags a:hover {
+  color: #ff8b5c;
+}
+
+html[data-theme='dark'] .theme-doc-footer .pagination-nav__link:hover,
+html[data-theme='dark'] .theme-blog-post-page .pagination-nav__link:hover,
+html[data-theme='dark'] .theme-doc-markdown a:hover,
+html[data-theme='dark'] .theme-doc-toc-desktop a:hover,
+html[data-theme='dark'] .theme-doc-breadcrumbs a:hover {
+  color: #ffb08f;
+}
+
+html[data-theme='dark'] .theme-doc-footer .pagination-nav__label,
+html[data-theme='dark'] .theme-blog-post-page .pagination-nav__label,
+html[data-theme='dark'] .theme-doc-footer .pagination-nav__sublabel,
+html[data-theme='dark'] .theme-blog-post-page .pagination-nav__sublabel {
+  color: inherit;
+}
+
+html[data-theme='dark'] .theme-doc-markdown .badge,
+html[data-theme='dark'] .theme-blog-post-page .badge {
+  border-color: rgba(255, 139, 92, .55);
+  color: #ffb08f;
+}
