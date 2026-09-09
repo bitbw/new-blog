@@ -19,3 +19,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .local_server
+
+# Local browser and preview output
+.playwright-mcp/
+.server/*.log
