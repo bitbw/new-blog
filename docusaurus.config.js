@@ -10,6 +10,7 @@ const config = {
   tagline: "This is bowen's technical personal blog",
   url: "https://blog.bitbw.top",
   baseUrl: "/",
+  trailingSlash: true,
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -40,7 +41,7 @@ const config = {
             "https://github.com/bitbw/new-blog/tree/preview",
         },
         blog: {
-          blogTitle: "Bitbw",
+          blogTitle: "Writing by Bowen",
           blogDescription: "This is bowen's technical personal blog",
           blogSidebarTitle: "All blog",
           blogSidebarCount: "ALL",
@@ -63,6 +64,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       // keywords
       metadata: [
         {
@@ -82,9 +88,9 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Archive",
+            label: "Notes",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Writing", position: "left" },
           {
             type: "localeDropdown",
             position: "right",
@@ -103,7 +109,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Archive",
+                label: "Notes",
                 to: "/docs/intro",
               },
             ],
@@ -146,5 +152,6 @@ const config = {
 };
 
 module.exports = config;
+
 
 

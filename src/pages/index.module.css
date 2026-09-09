@@ -1,40 +1,32 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
- .welcome_intro {
-  width: 40vw;
-  padding: 3rem 5rem 0 0;
-}
-.welcome_intro p {
-  font-size: 1.5rem;
-}
-
-.welcome_svg img {
-  height: 40vw;
-  padding-top: 1rem;
-}
-
-.hero_title {
-  font-size: calc((100vw/150) + 36px);
-  text-align: left;
-}
-
-@media screen and (max-width: 996px) {
-  .hero_title {
-    font-size: 1.8rem;
-    text-align: center;
-  }
-  .welcome_svg img {
-    width: 50vh;
-    height: 50vh;
-  }
-  .welcome_intro {
-    width: auto;
-    padding: 3rem 3rem 0;
-  }
-  .welcome_intro p {
-    font-size: 1.2rem;
-  }
-}
+.home { position: relative; min-height: 100vh; overflow: hidden; background: #090909; color: #f5f5f0; padding: 0 max(24px, 6vw) 100px; }
+.gridGlow { position: absolute; inset: 0; opacity: .6; pointer-events: none; background: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px), radial-gradient(circle at 78% 22%, rgba(245,100,24,.24), transparent 28%); background-size: 72px 72px, 72px 72px, auto; mask-image: linear-gradient(to bottom, #000 0%, transparent 78%); }
+.hero, .indexSection, .signalSection { position: relative; max-width: 1180px; margin: 0 auto; }
+.hero { min-height: 650px; display: grid; grid-template-columns: 1fr 280px; align-items: center; gap: 60px; }
+.heroCopy { padding-top: 20px; max-width: 820px; }
+.eyebrow, .sectionHeading, .sectionNumber { color: #ff6b2c; font: 600 .72rem/1.2 var(--ifm-font-family-monospace); letter-spacing: .16em; }
+.hero h1 { margin: 18px 0 24px; color: #f5f5f0; font-size: clamp(3.7rem, 8vw, 8.5rem); line-height: .91; letter-spacing: -.08em; font-weight: 700; }
+.hero h1 em, .signalSection em { color: #ff6b2c; font-style: normal; }
+.lead { max-width: 540px; color: rgba(245,245,240,.62); font-size: 1.08rem; line-height: 1.7; }
+.actions { display: flex; gap: 14px; margin-top: 36px; }
+.primaryAction, .secondaryAction { padding: 13px 18px; border-radius: 999px; font-size: .9rem; transition: .2s ease; }
+.primaryAction { color: #101010; background: #ff6b2c; font-weight: 700; }
+.primaryAction:hover { color: #101010; transform: translateY(-2px); background: #ff824c; }
+.secondaryAction { color: #f5f5f0; border: 1px solid rgba(255,255,255,.25); }
+.secondaryAction:hover { color: #fff; border-color: #ff6b2c; }
+.heroMark { display: flex; flex-direction: column; gap: 22px; align-items: flex-start; color: rgba(255,255,255,.55); font: .75rem/1.3 var(--ifm-font-family-monospace); }
+.heroMark i { width: 1px; height: 130px; background: #ff6b2c; box-shadow: 0 0 28px #ff6b2c; }
+.heroMark b { color: rgba(255,255,255,.35); font-weight: 400; letter-spacing: .08em; }
+.indexSection { border-top: 1px solid rgba(255,255,255,.18); padding-top: 18px; }
+.sectionHeading { display: flex; justify-content: space-between; margin-bottom: 20px; }
+.sectionHeading a { color: rgba(255,255,255,.55); font: .72rem/1.2 var(--ifm-font-family-monospace); }
+.sectionHeading a:hover { color: #ff6b2c; }
+.postList { border-bottom: 1px solid rgba(255,255,255,.18); }
+.postRow { display: grid; grid-template-columns: 120px 1fr 24px; gap: 20px; align-items: center; padding: 20px 0; color: #f5f5f0; border-top: 1px solid rgba(255,255,255,.1); }
+.postRow time { color: rgba(255,255,255,.4); font: .78rem/1 var(--ifm-font-family-monospace); }
+.postRow strong { font-size: clamp(1rem, 2vw, 1.35rem); font-weight: 500; }
+.postRow span { color: #ff6b2c; text-align: right; }
+.postRow:hover { color: #ff6b2c; padding-left: 8px; }
+.signalSection { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; padding-top: 100px; }
+.signalSection h2 { margin-top: 18px; color: #f5f5f0; font-size: clamp(2rem, 5vw, 4.6rem); line-height: .98; letter-spacing: -.06em; }
+.signalSection p { align-self: end; max-width: 420px; color: rgba(245,245,240,.55); font-size: 1rem; line-height: 1.8; }
+@media (max-width: 700px) { .home { padding-inline: 20px; } .hero { min-height: 620px; display: block; padding-top: 110px; } .heroMark { display: none; } .hero h1 { font-size: clamp(3.5rem, 17vw, 6rem); } .postRow { grid-template-columns: 82px 1fr 18px; gap: 10px; } .signalSection { display: block; padding-top: 72px; } .signalSection p { margin-top: 28px; } }
