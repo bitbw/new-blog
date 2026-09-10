@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require("prism-react-renderer");
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -10,8 +11,14 @@ const config = {
   tagline: "This is bowen's technical personal blog",
   url: "https://blog.bitbw.top",
   baseUrl: "/",
+  trailingSlash: true,
+  markdown: {
+    format: "detect",
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
   onBrokenLinks: "warn",
-  onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
@@ -40,7 +47,7 @@ const config = {
             "https://github.com/bitbw/new-blog/tree/preview",
         },
         blog: {
-          blogTitle: "Bitbw",
+          blogTitle: "Writing by Bowen",
           blogDescription: "This is bowen's technical personal blog",
           blogSidebarTitle: "All blog",
           blogSidebarCount: "ALL",
@@ -48,8 +55,8 @@ const config = {
           truncateMarker: /<!--\s*(more)\s*-->/,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          readingTime: ({ content, frontMatter, defaultReadingTime }) =>
-            defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
+          readingTime: ({ content, locale, defaultReadingTime }) =>
+            defaultReadingTime({ content, locale, options: { wordsPerMinute: 300 } }),
           editUrl:
             "https://github.com/bitbw/new-blog/tree/preview",
         },
@@ -63,6 +70,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       // keywords
       metadata: [
         {
@@ -82,9 +94,9 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Archive",
+            label: "Notes",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Writing", position: "left" },
           {
             type: "localeDropdown",
             position: "right",
@@ -103,7 +115,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Archive",
+                label: "Notes",
                 to: "/docs/intro",
               },
             ],
@@ -146,5 +158,6 @@ const config = {
 };
 
 module.exports = config;
+
 
 

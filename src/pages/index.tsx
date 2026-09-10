@@ -1,62 +1,41 @@
 import React from "react";
 import Link from "@docusaurus/Link";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./index.module.css";
 
-import Translate from "@docusaurus/Translate";
+const posts = [
+  ["2026.09.08", "Deploying from the terminal with licloud-cli", "/blog/2026/09/08/licloud-cli-deploy/"],
+  ["2026.09.03", "DeepSeek Harness meets EPT", "/blog/2026/09/03/deepseek-harness-ept/"],
+  ["2026.08.31", "Ponytail: less code, fewer assumptions", "/blog/2026/08/31/ponytail/"],
+];
 
-const description = "This is bowen's technical personal blog";
-
-function HomepageHeader() {
+export default function Home(): React.JSX.Element {
   return (
-    <div className="hero">
-      <div className={styles.welcome_intro}>
-        <h1 className={styles.hero_title}>
-          <Link style={{ color: "var(--ifm-color-primary)" }} to="/docs/intro">
-            Welcome to my blog ~
-          </Link>
-        </h1>
-        <p className="hero__subtitle">
-          <Translate
-            id="homepage.BlogTip"
-            description="The homepage message to ask the user to visit my blog"
-          >
-            记录学习、留住生活，尝试坚持写一点东西，让每天过的慢一点。
-          </Translate>
-        </p>
-      </div>
-      <div className={styles.welcome_svg}>
-        <img src={useBaseUrl("/img/home.svg")} />
-      </div>
-    </div>
-  );
-  // const {siteConfig} = useDocusaurusContext();
-  // return (
-  //   <header className={clsx('hero hero--primary', styles.heroBanner)}>
-  //     <div className="container">
-  //       <h1 className="hero__title">{siteConfig.title}</h1>
-  //       <p className="hero__subtitle">{siteConfig.tagline}</p>
-  //       <div className={styles.buttons}>
-  //         <Link
-  //           className="button button--secondary button--lg"
-  //           to="/docs/intro">
-  //           Docusaurus Tutorial - 5min ⏱️
-  //         </Link>
-  //       </div>
-  //     </div>
-  //   </header>
-  // );
-}
-
-export default function Home(): JSX.Element {
-  // const { siteConfig } = useDocusaurusContext();
-  // console.log("siteConfig.title",siteConfig.title)
-  return (
-    <Layout description={description}>
-      <HomepageHeader />
-      <main>{/* <HomepageFeatures /> */}</main>
+    <Layout title="Bitbw" description="Engineering notes by Bowen Zhang.">
+      <main className={styles.home}>
+        <div className={styles.gridGlow} aria-hidden="true" />
+        <section className={styles.hero}>
+          <div className={styles.heroCopy}>
+            <p className={styles.eyebrow}>BOWEN ZHANG / ENGINEERING NOTES</p>
+            <h1>Building tools<br />for <em>real work.</em></h1>
+            <p className={styles.lead}>Personal notes on AI tooling, full-stack systems, vehicle software and the small projects that make daily work better.</p>
+            <div className={styles.actions}>
+              <Link className={styles.primaryAction} to="/blog">Read the archive <span>↗</span></Link>
+              <Link className={styles.secondaryAction} to="/docs/intro">Browse notes</Link>
+            </div>
+          </div>
+          <div className={styles.heroMark} aria-hidden="true"><span>01</span><i /><b>build<br />ship<br />learn</b></div>
+        </section>
+        <section className={styles.indexSection}>
+          <div className={styles.sectionHeading}><span>01 / RECENT WRITING</span><Link to="/blog">View all ↗</Link></div>
+          <div className={styles.postList}>{posts.map(([date, title, to]) => <Link className={styles.postRow} key={to} to={to}><time>{date}</time><strong>{title}</strong><span>↗</span></Link>)}</div>
+        </section>
+        <section className={styles.signalSection}>
+          <div><span className={styles.sectionNumber}>02</span><h2>From repeatable work<br />to <em>reusable systems.</em></h2></div>
+          <p>Skills, scripts and projects are all part of the same record: find the friction, make it repeatable, then write down what survived contact with reality.</p>
+        </section>
+      </main>
     </Layout>
   );
 }
+
