@@ -19,7 +19,7 @@ const config = {
     },
   },
   onBrokenLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/icon.png",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -87,7 +87,7 @@ const config = {
         title: "Bitbw",
         logo: {
           alt: "Bitbw Logo",
-          src: "img/logo.png",
+          src: "img/icon.png",
         },
         items: [
           {
