@@ -1,41 +1,59 @@
-# Website
+# Bitbw 技术博客
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+基于 Docusaurus 3、React、TypeScript 和 Markdown 构建的个人技术博客，默认提供中文站点，并生成英文版本。
 
-### Installation
+## 快速开始
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+```bash
+npm ci
+npm run start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+开发服务默认启动中文 locale；英文页面使用：
 
-### Build
-
-```
-$ yarn build
+```bash
+npm run start -- --locale en --port 3002
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 构建与验证
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+npm run typecheck
+npm run build
+npm run serve
 ```
 
-Not using SSH:
+`build/` 是构建产物，不作为源码目录修改。完整开发约定、路由约束、UI 规则和发布流程见 [AGENTS.md](./AGENTS.md)。
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+## 项目结构
+
+```text
+blog/                 博客文章
+blog/authors.yml      作者信息
+docs/                 Notes 文档
+src/pages/            首页和页面组件
+src/components/       首页及通用组件
+src/css/              全局主题与文章样式
+static/               图片、图标和其他静态资源
+i18n/                 英文及主题翻译
+sidebars.js           文档侧边栏配置
+docusaurus.config.js  Docusaurus 站点配置
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## 内容与路由
+
+- 中文博客路径：`/blog/YYYY/MM/DD/slug/`；
+- 英文博客路径：`/en/blog/YYYY/MM/DD/slug/`；
+- 文章 frontmatter、分类、标签和多语言规则见 [AGENTS.md](./AGENTS.md)；
+- 站点保留尾斜杠配置，发布前需要验证中英文页面和语言切换。
+
+## 主题和部署
+
+站点保持黑底、橙色强调和固定 dark mode。发布分支为：
+
+| 分支 | 环境 |
+|------|------|
+| `preview` | 测试环境 |
+| `main` | 正式环境（prod） |
+
+完整发布操作、工作区恢复方式和发布前检查见 [AGENTS.md](./AGENTS.md) 的“发布流程”。
