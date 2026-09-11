@@ -248,3 +248,41 @@ html[data-theme='dark'] .theme-blog-post-page .badge {
   border-color: rgba(255, 139, 92, .55);
   color: #ffb08f;
 }
+
+/* Docusaurus mobile navbar: the menu must fill the viewport below the header. */
+@media (max-width: 996px) {
+  html[data-theme='dark'] .navbar-sidebar {
+    height: calc(100dvh - var(--ifm-navbar-height));
+    max-height: calc(100dvh - var(--ifm-navbar-height));
+    overflow-y: auto;
+    top: var(--ifm-navbar-height);
+  }
+
+  html[data-theme='dark'] .navbar-sidebar__items,
+  html[data-theme='dark'] .navbar-sidebar__item {
+    min-height: 100%;
+  }
+
+  html[data-theme='dark'] .navbar-sidebar__backdrop {
+    height: 100dvh;
+  }
+}
+
+@media (max-width: 996px) {
+  html[data-theme='dark'] .theme-doc-footer,
+  html[data-theme='dark'] .theme-doc-footer .pagination-nav {
+    margin-top: 1.5rem;
+  }
+
+  html[data-theme='dark'] .theme-doc-footer .pagination-nav__link--next:only-child {
+    grid-column: 1 / -1;
+  }
+
+  html[data-theme='dark'] .footer {
+    padding: 1.5rem 0 1rem;
+  }
+
+  html[data-theme='dark'] .footer__col {
+    margin-bottom: 1.5rem;
+  }
+}
