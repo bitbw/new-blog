@@ -6,7 +6,7 @@ authors:
 tags:
   - typora
   - 工具使用
-categories: 工具使用
+categories: 工具与基础知识
 cnblogs:
   postid: '15393005'
 hash: 43d5480f6ec17d05ac6fb0a11678e75d8d308e21d014889f61bafbb238eb4a31

@@ -6,7 +6,7 @@ authors:
 tags:
   - XLSX
   - js
-categories: 插件
+categories: 工具与基础知识
 cnblogs:
   postid: '15393029'
 hash: 33213d0698114323757d55679b82a3903384936e4e7eec0bdd129e2880b9fc86

@@ -5,7 +5,7 @@ authors:
   - bowen
 tags:
   - service-worker
-categories: js
+categories: 前端与工程
 hash: f4aa4f523fe89d5dca09a4d0a537030ab3424815ff85ed28e20f54332de8da4a
 cnblogs:
   postid: '16228128'

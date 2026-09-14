@@ -8,7 +8,7 @@ tags:
   - typora
   - github
   - gitee
-categories: 工具使用
+categories: 工具与基础知识
 cnblogs:
   postid: '15392984'
 hash: c73d92d887203116972c94167e9734b9ffc31982374432c671d5e7247102b1ec

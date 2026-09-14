@@ -5,7 +5,7 @@ authors:
   - bowen
 tags:
   - 面试
-categories: 面试
+categories: 前端与工程
 hash: ef86a2fe3a803d5664391e5305c3e64288765bc5024d3ea77e06a72c693305be
 cnblogs:
   postid: '17041161'

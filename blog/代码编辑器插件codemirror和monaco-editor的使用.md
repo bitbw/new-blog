@@ -6,7 +6,7 @@ authors:
 tags:
   - monaco-editor
   - codemirror
-categories: js插件
+categories: 前端与工程
 hash: ca7077b708df562e6656ef6412cec263f2e0eba97c68a26b42567155bfea7187
 cnblogs:
   postid: '17041162'

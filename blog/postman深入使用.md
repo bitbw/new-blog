@@ -6,7 +6,7 @@ authors:
 tags:
   - 工具使用
   - postman
-categories: 工具使用
+categories: 工具与基础知识
 cnblogs:
   postid: '15392985'
 hash: 1004e8ced5e3f828e45e1a86ed9995a5c618f0243f9c5f67a88cd79726eeb537

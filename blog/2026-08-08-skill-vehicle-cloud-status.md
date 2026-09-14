@@ -7,7 +7,7 @@ tags:
   - 自动化
   - 工具开发
   - AI
-categories: 自动化工具
+categories: 自动化与效率
 ---
 > 📖 **不知道怎么获取 x-chj-gwtoken？看这里！** 👉 [飞书文档 - 获取 x-chj-gwtoken 操作指南（含截图步骤）](https://li.feishu.cn/docx/XjYQdXqzioap7JxRBpJco3b0nvg)
 
