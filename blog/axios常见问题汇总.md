@@ -5,7 +5,7 @@ authors:
   - bowen
 tags:
   - axios
-categories: 网络应用
+categories: 工具与基础知识
 hash: 9ec75650e7368eb9c62eb1820df6ed7769e9eef3a6223290ab93652e04f03fec
 cnblogs:
   postid: '16227989'

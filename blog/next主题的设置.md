@@ -7,7 +7,7 @@ tags:
   - hexo
   - next
   - NexT
-categories: Hexo
+categories: 工具与基础知识
 cnblogs:
   postid: '15392586'
 hash: 30315fd0a2ff5b14ac885e658aee8ab665e4528f9c84d97d9d08d43969fc8046

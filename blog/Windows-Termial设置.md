@@ -5,7 +5,7 @@ authors:
   - bowen
 tags:
   - windows
-categories: 工具使用
+categories: 工具与基础知识
 cnblogs:
   postid: '15393026'
 hash: 3b67419ea8a5e71fe529002e5bbcd720b646bbdf50ca49eb2924368480d04654

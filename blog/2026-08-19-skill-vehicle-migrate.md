@@ -7,7 +7,7 @@ tags:
   - 自动化
   - 工具开发
   - AI
-categories: 自动化工具
+categories: 自动化与效率
 ---
 # 完整流程 - 从 prod 迁移车辆到 testtwo 并推送应用
 

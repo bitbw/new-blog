@@ -5,7 +5,7 @@ authors:
   - bowen
 tags:
   - Nodejs
-categories: Nodejs
+categories: 工具与基础知识
 cnblogs:
   postid: '15393047'
 hash: c615f7ddc25312433353256a7d438fec5847c98a612743b303482e161187c592

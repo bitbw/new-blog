@@ -7,7 +7,7 @@ tags:
   - AI
   - 开发工具
   - 工程实践
-categories: AI 工具
+categories: AI 与 Agent
 ---
 # DeepSeek Harness 必装的 10 个插件
 

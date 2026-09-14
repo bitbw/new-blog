@@ -7,7 +7,7 @@ tags:
   - AI
   - 开发工具
   - 工程实践
-categories: AI 工具
+categories: AI 与 Agent
 ---
 # DSH 接入公司 LLM —— 集成工程
 

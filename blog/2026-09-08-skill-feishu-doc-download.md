@@ -7,7 +7,7 @@ tags:
   - 自动化
   - 工具开发
   - AI
-categories: 自动化工具
+categories: 自动化与效率
 ---
 # 飞书 Playwright + Doc Parser 文档下载
 

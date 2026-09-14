@@ -5,7 +5,7 @@ authors:
   - bowen
 tags:
   - js
-categories: js
+categories: 前端与工程
 cnblogs:
   postid: '15392992'
 hash: 3602c4ea0f248d225c73f90e2699d224e00da3abd0b0962d46f8950eb2366e51

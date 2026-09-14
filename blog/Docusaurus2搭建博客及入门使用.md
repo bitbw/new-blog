@@ -5,7 +5,7 @@ authors:
   - bowen
 tags:
   - Docusaurus2
-categories: Docusaurus2
+categories: 工具与基础知识
 keywords:
   - Docusaurus2
 hash: ec4819480d748eca96fc2bb05db73573f2ddae6ed6ac964fd4802441bd6ede93

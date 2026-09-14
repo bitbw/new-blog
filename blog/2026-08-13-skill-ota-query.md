@@ -7,7 +7,7 @@ tags:
   - 自动化
   - 工具开发
   - AI
-categories: 自动化工具
+categories: 自动化与效率
 ---
 # OTA 应用升级数据查询（App Market / AMP）
 

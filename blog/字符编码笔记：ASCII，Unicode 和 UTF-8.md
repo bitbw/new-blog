@@ -6,7 +6,7 @@ authors:
 tags:
   - 计算机通用知识
   - js
-categories: 计算机通用知识
+categories: 工具与基础知识
 cnblogs:
   postid: '15393038'
 hash: beaa02f4566cf02f36c8e832a923968777cb8ef0d753ff7add4a6ae3889757bc
@@ -17,4 +17,3 @@ hash: beaa02f4566cf02f36c8e832a923968777cb8ef0d753ff7add4a6ae3889757bc
 http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html
 
 http://www.ruanyifeng.com/blog/2014/12/unicode.html
-

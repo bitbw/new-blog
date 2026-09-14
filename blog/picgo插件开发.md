@@ -6,7 +6,7 @@ authors:
 tags:
   - picgo
   - typora
-categories: 工具使用
+categories: 工具与基础知识
 hash: b9d59d061a56f52ed44c51b0f6ab65d185f1f71b4f1d05189876521085a44b00
 cnblogs:
   postid: '17041160'

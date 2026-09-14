@@ -5,7 +5,7 @@ authors:
   - bowen
 tags:
   - hexo
-categories: Hexo
+categories: 工具与基础知识
 description: 'hexo 上传 github 后图片不显示问题 , Next主题文章老是自动滚到底部评论区的问题'
 cnblogs:
   postid: '15392424'
