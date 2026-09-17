@@ -1,5 +1,7 @@
 ---
 title: new bing 新bing的使用
+status: legacy
+description: 早期 Bing Chat 使用记录，当前产品入口和能力可能已变化。
 date: 2023-5-30T18:13:47.000Z
 tags:
   - AI
@@ -48,3 +50,4 @@ categories: AI
 
 tip :如果没有出现 `聊天` 需要把国家改成美国
 ![snipaste_20230603_135421.jpg](https://s2.loli.net/2023/06/03/MhB95ymiJNr4Eq8.jpg)
+

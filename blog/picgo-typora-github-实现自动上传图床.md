@@ -18,6 +18,9 @@ hash: c73d92d887203116972c94167e9734b9ffc31982374432c671d5e7247102b1ec
 
 详细教程：<https://blog.csdn.net/beichuchuanyue/article/details/105493948>
 
+<!-- more -->
+
+
 > 最近一直在用 ubuntu 所以令行） 实现直接使用 picgo-core （命上传图片
 
 ## picgo-core 配置文件
@@ -96,3 +99,4 @@ hash: c73d92d887203116972c94167e9734b9ffc31982374432c671d5e7247102b1ec
 - npm 全局安装 [picgo](https://picgo.github.io/PicGo-Core-Doc/zh/guide/getting-started.html#%E5%85%A8%E5%B1%80%E5%AE%89%E8%A3%85)
 - 修改 picgo [配置文件](https://picgo.github.io/PicGo-Core-Doc/zh/guide/config.html#%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90)
 - 修改 typora 设置偏好 图像 上传服务设定  修改为 自定义命令 （custom command）  命令 ：`picgo upload`
+

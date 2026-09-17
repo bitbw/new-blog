@@ -13,6 +13,9 @@ hash: 3602c4ea0f248d225c73f90e2699d224e00da3abd0b0962d46f8950eb2366e51
 
 switch 中想要多个判断都进到一个分支中可以这样写
 
+<!-- more -->
+
+
 ```js
 for (const item of [1, 2, 3, 4, 5, 6]) {
   switch (item) {
@@ -37,3 +40,4 @@ for (const item of [1, 2, 3, 4, 5, 6]) {
 //进到5,6里 5
 //进到5,6里 6
 ```
+

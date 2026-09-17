@@ -1,0 +1,8 @@
+{
+  "label": "数据库",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "MySQL、SQLite、MongoDB 和数据库工具。"
+  }
+}

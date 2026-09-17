@@ -18,6 +18,9 @@ cnblogs:
 因为一直在使用 hexo 自建博客，最近又切换到了 docusaurus ，但是又想同时发布到博客园，所以需要一个工具能将 md 文件直接发布到博客园，所以写了一个 [node 自动化上传脚本](https://github.com/bitbw/markdown-blog-push-tool) ，同时方便需要的人借鉴使用（2023年2月更新）
 下面简单描述下  MetaWeblog 协议的使用  
 
+<!-- more -->
+
+
 ## 博客园的 MetaWeblog 协议的使用
 
 [原资料地址](https://cloud.tencent.com/developer/article/1608220?from=14588)
@@ -206,3 +209,4 @@ module.exports = {
   deletePost: ()=> metaWeblog.deletePost(appKey, postid, username, password, publish),
 }
 ```
+

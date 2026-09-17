@@ -11,6 +11,9 @@ categories: 自动化与效率
 ---
 > 📖 **不知道怎么获取 x-chj-gwtoken？看这里！** 👉 [飞书文档 - 获取 x-chj-gwtoken 操作指南（含截图步骤）](https://li.feishu.cn/docx/XjYQdXqzioap7JxRBpJco3b0nvg)
 
+
+<!-- more -->
+
 # SSP 车辆管理 - 从 prod 迁移车辆到 testtwo
 
 > **核心原则：优先通过接口操作。**
@@ -114,3 +117,4 @@ python scripts/sync.py <VIN> --token "<token>"
 | 401 Unauthorized | x-chj-gwtoken 过期 | 重新获取 x-chj-gwtoken |
 | 未找到车辆 | VIN 不存在于 prod | 确认 VIN 是否正确 |
 | 同步失败 | 网络或服务异常 | 重试，或检查 testtwo 服务状态 |
+

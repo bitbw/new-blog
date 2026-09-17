@@ -14,6 +14,9 @@ categories: AI 与 Agent
 一个 **0 依赖**的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件，
 用来演示 Cordis 插件系统的四个核心机制，并且**能在任意目录直接安装**。
 
+<!-- more -->
+
+
 > 这个文件夹里的插件就是为 `D:\bowen\git-project\dsh-hello-plugin\` 准备的，
 > 不需要放进 DSH 仓库，也不需要联网装依赖。
 
@@ -179,3 +182,4 @@ dsh plugin --profile demo add ./dsh-hello-plugin-0.1.0.tgz   # 或 github:you/ds
 ---
 
 *LICENSE: MIT · 纯演示用途，无外部依赖。*
+

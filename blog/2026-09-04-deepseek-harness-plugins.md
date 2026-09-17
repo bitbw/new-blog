@@ -13,6 +13,9 @@ categories: AI 与 Agent
 
 截至2026年8月15日，Oh-My-DSH目录已收录精选插件 **1117个**，监测生态仓库 **1521个**，累计获得Star **301295** 颗。
 
+<!-- more -->
+
+
 今天这篇文章，我就从众多插件里，挑出10个**最值得装**的，希望对你会有所帮助。
 
 ## 一、先搞懂Harness的插件怎么装
@@ -319,3 +322,4 @@ DeepSeek给Harness的口号是"一切皆插件"。
 - **DeepSeek Harness官方仓库**：https://github.com/deepseek-ai/deepseek-harness（11万+ Star）
 - **Oh-My-DSH插件聚合社区**：https://github.com/like-study1/Oh-My-DSH（1117个插件）
 - **Awesome DSH Plugin精选列表**：https://github.com/awesome-dsh-plugin/awesome-dsh-plugin（218个插件）
+

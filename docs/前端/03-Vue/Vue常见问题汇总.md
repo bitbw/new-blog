@@ -1,5 +1,7 @@
 ---
 title: Vue常见问题汇总
+status: legacy
+description: Vue 2 时代的常见问题记录，优先参考 Vue 3 文章。
 tags:
   - vue
 categories: Vue
@@ -330,3 +332,4 @@ vue3 中去除了 $listeners 统一在 $attrs 中
 `</template>`标签位置不对
 
 ![解决](https://s2.loli.net/2023/01/15/IMfLWrs5Eubo7Tj.png)
+

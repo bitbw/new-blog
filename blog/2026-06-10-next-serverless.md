@@ -12,6 +12,9 @@ categories: 项目实践
 
 基于 Next.js 15 + TypeScript 构建的 Serverless API 服务，集成 NeonDB（PostgreSQL）、Pusher 实时推送、Vercel Blob 文件存储和飞书通知。
 
+<!-- more -->
+
+
 ## 快速开始
 
 ```bash
@@ -546,3 +549,4 @@ GET /api/hello?name=World
 | Pusher | 5.2.0 | 实时事件推送 |
 | Vercel Blob | 2.3.2 | 文件存储 |
 | TailwindCSS | 4 | 样式 |
+

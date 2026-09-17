@@ -14,6 +14,9 @@ hash: 33213d0698114323757d55679b82a3903384936e4e7eec0bdd129e2880b9fc86
 
 [SheetJS js-xlsx](http://sheetjs.com/) 中文文档： <https://github.com/rockboom/SheetJS-docs-zh-CN>
 
+<!-- more -->
+
+
 ## 使用步骤
 
 ```js
@@ -53,3 +56,4 @@ data["!merges"] = [{
 }];
 ........
 ```
+

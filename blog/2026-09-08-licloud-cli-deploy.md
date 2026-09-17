@@ -15,6 +15,9 @@ categories: 项目实践
 >
 > 本文对应的 CLI 版本文档：[融合云应用中心CLI部署流程](https://li.feishu.cn/docx/SM5tdYxzeoxezLxayYycjRZTnmd)。
 
+
+<!-- more -->
+
 ## 每次发布，为什么总要在应用中心里点一圈
 
 一个服务第一次部署到融合云，真正花时间的通常不是写 Dockerfile，而是把一串页面操作完整走完：
@@ -323,4 +326,5 @@ licloud-cli licloud-agent "查询 <app_name> 的发布状态" --tenant-id <tenan
 
 - [融合云应用中心通用部署流程](https://li.feishu.cn/docx/IUjXdSeLxoFIqQxd2vjcpZSPnAf)
 - [融合云应用中心CLI部署流程](https://li.feishu.cn/docx/SM5tdYxzeoxezLxayYycjRZTnmd)
+
 

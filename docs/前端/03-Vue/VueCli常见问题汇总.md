@@ -1,5 +1,7 @@
 ---
 title: VueCli常见问题汇总
+status: legacy
+description: 旧版 Vue CLI 项目的问题记录，新项目请确认构建工具版本。
 date: 2021-11-12T12:07:26.000Z
 tags:
   - vue-cli
@@ -93,3 +95,4 @@ module.exports = {
 ### 容易出现的问题
 
 @vue/cli-plugin-babel 不要直接安装 最好使用与当前项目 @vue/cli-plugin 和 @vue/cli-service 相近的版本
+

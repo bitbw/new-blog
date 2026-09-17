@@ -12,6 +12,8 @@ categories: AI 与 Agent
 
 > 写给那些已经用上 Codex、Claude Code、OpenClaw、DeepSeek Harness，却还在"精打细算"下达任务的人。
 
+<!-- more -->
+
 ## 一个反直觉的事实：你在替 Agent 省事，其实是在替自己设限
 
 很多人拿到 Codex、Claude Code、OpenClaw、DeepSeek Harness 这类工具后，第一反应是"它能帮我写什么"。
@@ -125,3 +127,4 @@ Agent 不是读不懂，是你给的东西没法用。比起甩一句"这个项�
 你不需要比 Agent 更懂它能干什么。你只需要比它更懂你想要什么。
 
 剩下的，交给它去撞。撞出来的那些惊喜，是你坐在工位上替它做判断时，永远拿不到的。
+

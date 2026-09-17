@@ -15,6 +15,9 @@ categories: AI 与 Agent
 > 结论：**主路线（chj-gateway / deepseek-v4）已经在用**；本目录补全模型清单，并新增
 > **EPT Copilot（GPT-5.6，Responses API）** 作为第二 provider（路线 C）。
 
+<!-- more -->
+
+
 ---
 
 ## 一、现状盘点（已侦察确凿）
@@ -106,3 +109,4 @@ D:\bowen\git-project\dsh-ept-integration\refresh-ept-key.ps1   # 交互式从 au
 - **凭据自动刷新**：`access_token` 短有效期（`auth_session.json` 的 `expires_at`），企业后台凭据说 `refresh_token` 可续。用 cron / 开机脚本定期跑 `refresh-ept-key.ps1` 即可维持。
 - **503 抖动**：日志曾见 `simulated no healthy upstream`（deepseek-v4-pro 偶发 503）。属网关上游问题；pi-ai 有重试策略，若频繁可顺手把 CLI 里的重试调高。
 - 本沙箱无 VPN 且写盘受限，所以**所有实连验证都必须在你的正常终端完成**。
+

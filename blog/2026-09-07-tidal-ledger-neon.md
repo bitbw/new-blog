@@ -12,6 +12,9 @@ categories: 项目实践
 
 基于 Neon 官方 Vercel Marketplace 模板迁移的个人记账 Web 应用。
 
+<!-- more -->
+
+
 技术组合：**Next.js 16 + Vercel + Neon Postgres + Drizzle ORM + Better Auth**。项目保留原有的移动端优先账本界面、可用的金额键盘、账单本地解析和导入预览；认证与数据访问已替换为 Better Auth 会话和服务端 Neon API，不依赖 Supabase。
 
 ## 当前功能
@@ -106,3 +109,4 @@ preview-*     功能 / Vercel Preview 验证
 - 补齐分类管理和预算管理；
 - 将账单导入确认结果批量写入 `transactions`，并实现交易号去重、批次撤销；
 - 为 Preview 部署自动创建/绑定 Neon 分支。
+

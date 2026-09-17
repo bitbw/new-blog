@@ -15,6 +15,9 @@ hash: 6b3acabaaf4b000532220c1938485ba0e4c23f67625f83fd9c6c3ba7c3273bc8
 
 [SheetJS js-xlsx](http://sheetjs.com/) 中文文档： https://github.com/rockboom/SheetJS-docs-zh-CN
 
+<!-- more -->
+
+
 下面是对工作簿能见度的描述文档
 
 ## 数据表能见度
@@ -97,3 +100,4 @@ utils.book_set_sheet_visibility = function (wb, sh, vis) {
     }
   }
 ```
+
