@@ -14,6 +14,9 @@ hash: 43d5480f6ec17d05ac6fb0a11678e75d8d308e21d014889f61bafbb238eb4a31
 
 typora，postman，vscode 等都是使用 electron 构建而成的桌面应用
 
+<!-- more -->
+
+
 这篇文章主要记录下 typora 日常使用中的技巧
 
 ## win 命令行添加 typora 直接打开 md 文档的方法
@@ -45,3 +48,4 @@ C:\app\Typora\bin
 ![image-20210427142049929](https://s2.loli.net/2023/01/13/rI2uCYZRNpXew89.png)
 
 > 原文：https://blog.csdn.net/m0_46588308/article/details/105919561
+

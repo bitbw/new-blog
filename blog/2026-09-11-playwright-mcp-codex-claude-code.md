@@ -12,6 +12,8 @@ categories: AI 与 Agent
 
 浏览器自动化最容易出现一种“看起来已经完成”的假象：AI 给你写了一段 Playwright 代码，命令也执行成功了，但它并没有真正看到页面、点击按钮、填写表单，更没有确认页面最后到底变成了什么样。
 
+<!-- more -->
+
 Playwright MCP 解决的正是这一步。它把浏览器变成 coding agent 可以调用的工具，让 Codex、Claude Code 等工具能够：
 
 - 打开网页并读取真实页面结构；
@@ -486,3 +488,4 @@ Playwright MCP 的价值，不是把鼠标和键盘交给 AI，而是让 AI 获�
 - [Playwright MCP 官方文档](https://playwright.dev/docs/test-agents)
 - [Codex CLI MCP 命令帮助](https://developers.openai.com/codex/cli/reference/)
 - [Claude Code MCP 文档](https://docs.anthropic.com/en/docs/claude-code/mcp)
+

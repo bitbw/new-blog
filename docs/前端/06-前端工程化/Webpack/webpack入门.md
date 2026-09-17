@@ -1,5 +1,7 @@
 ---
 title: webpack入门(webpak4)
+status: legacy
+description: Webpack 4 入门记录，仅适用于维护旧版 Webpack 项目。
 date: 2021-01-02T16:09:17.000Z
 tags:
   - Webpack
@@ -1358,3 +1360,4 @@ vscode 中的 prettier 插件 会优先已这个文件作为格式化的配置
 > js 兼容性插件
 
 配合 webpack 使用 ： babel-loader <https://www.npmjs.com/package/babel-loader>
+

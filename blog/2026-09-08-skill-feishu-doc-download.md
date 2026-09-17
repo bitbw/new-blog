@@ -11,6 +11,9 @@ categories: 自动化与效率
 ---
 # 飞书 Playwright + Doc Parser 文档下载
 
+
+<!-- more -->
+
 ## 必需前置条件
 
 本技能是 **Playwright MCP + Doc Parser MCP** 的组合实现，二者缺一不可：
@@ -90,5 +93,6 @@ const tokenFromUid = uid => uid.match(/wikiToken=([^&]+)/)?.[1] || '';
 - 目标根目录下没有残留 `docs-*`、日志、临时下载目录或空的错误目录。
 
 最终报告简要列出输出根目录、节点总数、成功/失败数、Markdown 数、图片数和需要人工处理的节点。
+
 
 

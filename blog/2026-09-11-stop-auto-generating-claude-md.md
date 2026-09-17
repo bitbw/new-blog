@@ -14,6 +14,8 @@ categories: AI 与 Agent
 >
 > 本文根据公众号原文重新整理 Markdown 格式，保留原文的核心观点、实验数据和实践建议。
 
+<!-- more -->
+
 很多团队都会给代码仓库加一个 `AGENTS.md` 或 `CLAUDE.md`，用来描述：
 
 - 项目结构
@@ -269,3 +271,4 @@ Context engineering 的核心不是堆上下文，而是筛选上下文。
 
 1. [Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](https://arxiv.org/abs/2602.11988)
 2. [原公众号文章：别再自动生成 CLAUDE.md 了，最新论文把真相讲透了](https://mp.weixin.qq.com/s/76V5tqHX1GkKPhUlK07Yrg)
+

@@ -13,6 +13,9 @@ categories: 自动化与效率
 
 使用 `scripts/sign.py` 调用签名平台接口完成一次完整签名流程：上传 APK、创建后台任务、轮询任务状态，成功后返回签名文件地址。
 
+<!-- more -->
+
+
 使用 `scripts/download.py` 携带 Artifactory Basic Auth 下载 `signed_url` 返回的签名 APK。
 
 ## 快速开始
@@ -106,5 +109,6 @@ HAR 只用于确认接口字段和响应结构，不要复制其中的 OAuth cod
 - `completed` 但 `signed_url` 为空：视为异常，返回错误并提示检查平台任务详情。
 - `failed`：输出 `error_message`，不要重复自动提交同一个 APK，除非用户明确要求重试。
 - 列表接口没有当前 `task_id`：可能是任务尚未入库，等待后重试；超过超时后失败。
+
 
 

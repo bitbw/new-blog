@@ -11,6 +11,9 @@ categories: 自动化与效率
 ---
 > 📖 **不知道怎么获取 x-chj-gwtoken？看这里！** 👉 [飞书文档 - 获取 x-chj-gwtoken 操作指南（含截图步骤）](https://li.feishu.cn/docx/XjYQdXqzioap7JxRBpJco3b0nvg)
 
+
+<!-- more -->
+
 # 车云车辆云端环境·在线状态查询
 
 > 查询车辆在云端（testtwo / prod）各域控模块的**在线状态**。
@@ -118,3 +121,4 @@ python scripts/query.py <VIN>
 | 401 Unauthorized | x-chj-gwtoken 过期 | 重新获取 x-chj-gwtoken |
 | vin 码格式异常 | VIN 不是 17 位 | 确认 VIN 是否正确 |
 | testtwo 与 prod 均无数据 | 车辆未接入云端或 VIN 有误 | 确认 VIN，或到 licar 平台确认车辆状态 |
+

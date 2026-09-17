@@ -12,6 +12,9 @@ categories: 项目实践
 
 实时对接车辆 CarProperty 信号，展示预瞄路面特征、垂向加速度等底盘数据。支持 Web 开发预览与 Android（SS3/SS4 平台）原生部署。
 
+<!-- more -->
+
+
 ## 技术栈
 
 | 层 | 技术 |
@@ -121,3 +124,4 @@ npm run adb:list            # 列出已安装的 fuxi 包
 ## 参考文档
 
 - [Android Car API 使用说明](https://li.feishu.cn/docx/GCOSd3gdQoe7ryx3s1mcdiVXndd)
+

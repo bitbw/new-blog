@@ -15,6 +15,9 @@ categories: 自动化与效率
 > 纯 Python 实现，不依赖 Playwright 浏览器，通过接口 + 登录 Cookie 鉴权。
 > 应用不写死：**VIN 与应用（appid）均由用户输入**。
 
+<!-- more -->
+
+
 ## 环境信息
 
 | 环境 | 接口域名 | 登录页 | 编号段示例（com.fuxi.x11mediatest） |
@@ -137,3 +140,4 @@ python scripts/query.py <VIN> [--appid <appid>] [--env <prod|testtwo>] [--cookie
 | 未找到应用 `xxx` | 包名/应用名在该环境不存在 | 用应用列表枚举接口确认，或直接用数字 appId |
 | `匹配到多个应用` | 输入过于模糊 | 改成完整包名，或直接给平台数字 appId |
 | `totalCount: 0` | 该 VIN 无该应用升级记录 | 属于未推送/未安装；可去掉 `--appid` 查全部 |
+

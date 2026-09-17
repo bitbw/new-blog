@@ -13,6 +13,9 @@ categories: AI 与 Agent
 
 🛠️ 工具分享 | 2026-09-03
 
+<!-- more -->
+
+
 **使用方式：把这篇文档丢给你电脑的 Agent（Codex、Claude 或其他），让 AI 帮你配置。**
 
 ## 推荐 Skill
@@ -153,3 +156,4 @@ Copy-Item "$env:USERPROFILE\.dsh\.credentials.yaml.bak-时间戳" "$env:USERPROF
 **Q: 浏览器打开 401？** 使用完整 `?token=...` URL。
 
 **Q: 用这个 Skill 会扣费吗？** 会。它调用的是你自己的 EPT LLM API，所有请求从个人 EPT 额度中扣除；如需使用公司融合云额度，请改用融合云网关方案。
+

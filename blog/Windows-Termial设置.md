@@ -13,6 +13,9 @@ hash: 3b67419ea8a5e71fe529002e5bbcd720b646bbdf50ca49eb2924368480d04654
 
 # Windows Termial
 
+
+<!-- more -->
+
 ## 安装 Windows Termial
 
 https://github.com/microsoft/terminal
@@ -372,3 +375,4 @@ powershell.exe 中的普通空格
 ```bash
     git config --global core.quotepath false
 ```
+

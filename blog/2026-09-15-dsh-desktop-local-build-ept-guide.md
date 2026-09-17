@@ -16,6 +16,8 @@ categories: AI 与 Agent
 
 **项目地址先记住**（后面所有命令都在这个仓库里运行）：
 
+<!-- more -->
+
 📌 **DSH 官方源码仓库：https://github.com/deepseek-ai/deepseek-harness**
 
 找不到仓库、找不到技能、找不到脚本？直接翻下面的 [资源地址](#资源地址) 一节，全部列好。
@@ -493,3 +495,4 @@ EPT Codex 通过 OpenAI Responses provider 访问 EPT。EPT Claude 通过 `ept-c
 ## Dev Note
 
 本文是跨环境的安装与接入指南。实际仓库版本、Node/pnpm 版本、EPT provider 字段和脚本行为发生变化时，应以当前 DSH 源码（https://github.com/deepseek-ai/deepseek-harness ）和 `ept-dsh` 技能为准；不要把某台机器的绝对路径、模型列表或临时凭据固化到本文档。
+

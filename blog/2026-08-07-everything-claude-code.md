@@ -13,6 +13,9 @@ categories: AI 与 Agent
 
 用 AI 干活干多了，我发现最扎心的不是"它写不出来"，而是这三件事：
 
+<!-- more -->
+
+
 一是**配置天天重来**。Claude Code 换了新会话就不认识你；CLAUDE.md、agents、hooks、rules 每个项目都要重新搭一遍，搭完上个项目的经验又带不过来。
 
 二是**干完没人把关**。让 AI 并行拉起来跑得挺热闹，但「看起来都对」和「真的对」之间差一道独立检核。好几次交付物差点带病出门，就是少了这一道。
@@ -169,3 +172,4 @@ cp -R rules/typescript ~/.claude/rules/   # 按技术栈追加 python/golang 等
 ---
 
 提报人：张博文
+

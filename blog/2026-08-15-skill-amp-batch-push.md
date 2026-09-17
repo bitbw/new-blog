@@ -15,6 +15,9 @@ categories: 自动化与效率
 > 纯 Python 实现，不依赖浏览器；接口 + Cookie 鉴权。
 > **车辆应用配置（huapp-config）已拆分为独立 skill「cheyun-amp-huapp-config」**：需要配置首页路由/截图悬浮按钮等应用内部设置时用那个 skill，本 skill 只做批量加 VIN。
 
+<!-- more -->
+
+
 ## 环境信息
 
 | 环境 | 接口域名 | 登录页 | 状态 |
@@ -115,3 +118,4 @@ python scripts/push.py add <VIN> [<VIN> ...] --group <名称或id>
 | 未匹配到分组 | 名称不对 / 分组被删 | 先运行 `groups --name <关键字>` 确认 id |
 | batchAdd 返回业务异常 | VIN 无效 / 分组状态异常 | 查看返回 msg；确认 VIN 为 17 位、分组已启用 |
 | 需要配置应用内部设置 | 应是 huapp-config 场景 | 改用独立 skill `cheyun-amp-huapp-config` |
+

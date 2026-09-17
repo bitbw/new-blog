@@ -16,6 +16,9 @@ cnblogs:
 var 申明的变量会被提升到当前作用域的最顶端
 所谓作用域是 `function` 这样的函数才算是, `if` `else` `for` 等带 `{}` 的是没有作用域的无论嵌套多少层都会提升
 
+<!-- more -->
+
+
 ```js
 (function () {
   console.log(i); //var i 被提升到这里 结果是 undefind ，如果没提升就会报 Uncaught ReferenceError: i is not defined
@@ -135,3 +138,4 @@ function* generatorFunc() {
 var asyncFn = asyncToGenerator(generatorFunc);
 asyncFn().then((res) => console.log(res));
 ```
+

@@ -13,6 +13,9 @@ categories: AI 与 Agent
 
 使用公司 EPT 模型时，保留凭据在 `$env:USERPROFILE\.dsh\.credentials.yaml`，不得打印 key、token、凭据内容、请求体或 Authorization 头。
 
+<!-- more -->
+
+
 ## 路线选择
 
 - `ept-copilot`：EPT Codex Responses API，直连 `https://portal-k8s-prod.ep.chehejia.com/api/copilot/codex/v1`，`api: openai-responses`，凭据引用 `EPT_CODEX_API_KEY`。
@@ -96,3 +99,4 @@ python "<skill-root>\scripts\refresh_ept_key.py"
 - 浏览器 401：使用包含 token 的完整 URL。
 - EPT `/models` 404：不是 provider 不可用的证据；使用已知模型 id。
 - Codex 401/403：刷新 `EPT_CODEX_API_KEY`，运行刷新脚本，然后重启 DSH。
+

@@ -14,6 +14,9 @@ categories: 自动化与效率
 > 一站式编排：**检测是否存在 → 添加车辆 → 添加白名单 → 切换云端环境 → 批量推送应用**。
 > 本 skill 是**编排层**：把各叶子能力按顺序串联，判断点必须询问用户；具体接口操作由各子 skill 完成。
 
+<!-- more -->
+
+
 ## 流程概览
 
 ```
@@ -127,3 +130,4 @@ python scripts/flow.py list
 | 迁移报 401/403 | `x-chj-gwtoken` 过期 | 重新获取并传入；见 sync skill 飞书文档 |
 | 白名单发送失败/找不到群 | 未进群 / token 过期 | 先通过邀请链接进群，再 `lark-cli auth login` |
 | 推送报 `code 240420` | AMP Cookie 过期 | 重新登录 testtwo AMP 复制最新 Cookie |
+

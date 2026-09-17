@@ -205,6 +205,41 @@ html[data-theme='dark'] .theme-blog-post-page .pagination-nav__link {
   color: #e8e8e3;
 }
 
+/* Match the docs reading frame without stretching the article text. */
+@media (min-width: 997px) {
+  html[data-theme='dark'] .container.margin-vert--lg {
+    max-width: 1380px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  html[data-theme='dark'] .container.margin-vert--lg > .row > aside.col--3,
+  html[data-theme='dark'] .container.margin-vert--lg > .row > main.col--7,
+  html[data-theme='dark'] .container.margin-vert--lg > .row > .col--2 {
+    --ifm-col-width: auto !important;
+    flex: 0 0 300px !important;
+    max-width: 300px !important;
+  }
+
+  html[data-theme='dark'] .container.margin-vert--lg > .row > main.col--7 {
+    --ifm-col-width: auto !important;
+    flex-basis: 780px !important;
+    max-width: 780px !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  html[data-theme='dark'] .container.margin-vert--lg > .row > main.col--7 > article,
+  html[data-theme='dark'] .container.margin-vert--lg > .row > main.col--7 > article > header,
+  html[data-theme='dark'] .container.margin-vert--lg > .row > main.col--7 > article > .markdown,
+  html[data-theme='dark'] .container.margin-vert--lg > .row > main.col--7 > article > footer {
+    width: 100%;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* Keep every interactive document element on the orange editorial accent. */
 html[data-theme='dark'] {
   --ifm-color-primary: #ff6b2c;
@@ -286,3 +321,6 @@ html[data-theme='dark'] .theme-blog-post-page .badge {
     margin-bottom: 1.5rem;
   }
 }
+
+
+

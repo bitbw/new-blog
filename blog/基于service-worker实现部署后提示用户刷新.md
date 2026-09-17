@@ -13,6 +13,9 @@ cnblogs:
 
 ## Vue项目部署新版本后提示用户刷新浏览器
 
+
+<!-- more -->
+
 ### vue-cli 创建带pwd的项目
 
 ```bash
@@ -119,3 +122,4 @@ self.addEventListener('message', (event) => {
   }
 });
 ```
+

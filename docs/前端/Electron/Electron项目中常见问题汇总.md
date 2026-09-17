@@ -1,5 +1,7 @@
 ---
 title: Electron项目中常见问题汇总
+status: legacy
+description: 旧版 Electron 与 electron-builder 问题记录，需要结合当前版本验证。
 date: 2021-06-07T13:59:46.000Z
 tags:
   - Electron
@@ -287,3 +289,4 @@ electron-builder <https://www.electron.build/>
 ### 框架集成
 
 vue-cli-plugin-electron-builder <https://nklayman.github.io/vue-cli-plugin-electron-builder/>
+

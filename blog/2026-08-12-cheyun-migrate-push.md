@@ -11,6 +11,9 @@ categories: 自动化与效率
 ---
 > **一句话摘要：** 上一轮我安利过"从 prod 迁车到 testtwo"，这次是接续它的**编排层 Skill**——把「检测 → 添加 → 白名单 → **切换云端环境** → **按车型批量推送 App 到 OTA 测试分组**」5 步串成一条线。其中最磨人的两件收尾活：**切环境**（prod ↔ testtw）和 **App OTA 推送**，终于不用再跨 AMP / 飞书机器人 / 云端平台人肉一遍。
 
+
+<!-- more -->
+
 ---
 
 ## 你是否也被这两件"收尾活"烦着
@@ -179,5 +182,6 @@ push.py groups --name X04B                    # 记不住组号？按关键字�
 🚗 完整编排 Skill：https://ai-market.chehejia.com/?page=skills&skill=ckqpipedmzv0phihh4el
 
 ---
+
 
 

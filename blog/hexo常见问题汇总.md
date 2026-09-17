@@ -15,6 +15,9 @@ hash: 5033056fca0ba167b9abfc194d3a1fa784a038b8da4e90cc90047d73a0e0846c
 
 [hexo官方文档](https://hexo.io/docs/)
 
+<!-- more -->
+
+
 
 ## 注意事项
 
@@ -97,3 +100,4 @@ npm i hexo-theme-next
 #### 运行
 
 运行`hexo clean`并`hexo s`检查站点是否正常工作
+

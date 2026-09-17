@@ -12,6 +12,9 @@ categories: 项目实践
 
 > A full-stack EPUB reader: look up words while reading, review with **Ebbinghaus intervals** (1→30 days), plus study stats, leaderboards, and an English / Chinese UI.
 
+<!-- more -->
+
+
 
 
 **Try it online: [https://english-read.bitbw.top/](https://english-read.bitbw.top/)**
@@ -315,6 +318,7 @@ vercel --prod     # production
 
 | Desktop | Mobile |
 |---------|--------|
+
 
 
 
